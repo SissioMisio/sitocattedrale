@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css" type="text/css">
+    <!-- DA CORREGGERE
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var triggerElementTop = $('.trigger').offset().top;
+                var fixedDiv = $('#strisciamenu');
+
+                if ($(window).scrollTop() > triggerElementTop) {
+                    fixedDiv.css('background-color', 'red'); /* Cambia colore quando supera l'elemento di trigger */
+                } else {
+                    fixedDiv.css('background-color', 'black'); /* Ripristina il colore di sfondo di default */
+                }
+            });
+        });
+    </script>
+    -->
+</head>
+
+<body>
+    <div id="strisciamenu">
+        <div id="logo">
+            <a href="x.html">
+                <img src="logo.png">
+                <div class="titologo">Cattedrale di <br>
+                    <grassetto>San Giorgio</grassetto>
+                </div>
+            </a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li class="segnaposto">
+                    <a class="casella" href="x.html">Home</a>
+                </li>
+                <li>
+                    <a class="casella" href="x.html">Storia</a>
+                </li>
+                <li class="dropdown">
+                    <div class="dropbtn">
+                        Struttura <simboli1>T</simboli1>
+                        <div class="dropdown-content">
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropbtn">
+                        Opere <simboli1>T</simboli1>
+                        <div class="dropdown-content">
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="lingua">
+            <div class="ldropdown">
+                <div class="ldropbtn">
+                    <img src="itaflag.png">Italiano <simboli1>T</simboli1>
+                    <div class="ldropdown-content">
+                        <a href="#"><img src="engflag.png">English</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cosa">
+        <img src="prova.jpg">
+        <div class="trigger"></div>
+    </div>
+</body>
+
+</html>
