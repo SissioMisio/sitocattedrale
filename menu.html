@@ -1,27 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css" type="text/css">
-    <!-- DA CORREGGERE
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var triggerElementTop = $('.trigger').offset().top;
-                var fixedDiv = $('#strisciamenu');
+    <link rel="stylesheet" href="main.css" id="cssPrincipale" type="text/css"> <!--Id cssPrincipale in modo che posso riferirmi a questo nel JavaScript-->
+    <link rel="stylesheet" href="menu.css" id="cssMenu" type="text/css"> <!--Id cssMenu in modo che posso riferirmi a questo nel JavaScript-->
 
-                if ($(window).scrollTop() > triggerElementTop) {
-                    fixedDiv.css('background-color', 'red'); /* Cambia colore quando supera l'elemento di trigger */
-                } else {
-                    fixedDiv.css('background-color', 'black'); /* Ripristina il colore di sfondo di default */
-                }
-            });
-        });
-    </script>
-    -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--Includo lo script di JQuery-->
+    <script src="menujs.js"></script> <!--Includo lo script che permette di cambiare il css quando scendo nella pagina-->
+
 </head>
 
 <body>
