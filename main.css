@@ -1,0 +1,827 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: font2;
+    font-weight: 400;
+    background-color: rgb(0, 0, 0);
+}
+
+#tstrisciamenu {
+    /*background-image: linear-gradient(to bottom, rgb(43, 43, 43), rgba(255, 255, 255, 0));*/
+    width: 100%;
+    position: fixed;
+    z-index: +5;
+}
+
+/* inizio caselle menu */
+.tmenu ul {
+    list-style: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tmenu li {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.tmenu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: auto;
+    display: block;
+    text-align: center;
+    margin: 7px 33px 0;
+    padding: 12px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 0;
+    border-color: rgb(180, 137, 50);
+    border-style: solid;
+    transition: all 0.1s;
+}
+
+.tsegnaposto a {
+    color: rgb(180, 137, 50);
+    font-weight: 700;
+}
+
+.tcasella:hover {
+    color: rgb(180, 137, 50);
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 4px;
+    border-color: rgb(180, 137, 50);
+    border-style: solid;
+}
+
+.tdropbtn {
+    color: white;
+    margin: 7px 20px 0;
+    padding: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+.tdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.tdropdown-content {
+    display: block;
+    position: absolute;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10px;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #f1f1f1d7;
+    border-radius: 3%;
+}
+
+.tdropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    padding: 10px 20px 10px;
+    transition: all 0.2s;
+    width: auto;
+    font-size: 16px;
+    border-radius: 6%;
+}
+
+.tdropdown-content a:hover {
+    background-color: rgb(180, 137, 50);
+    border: 0;
+    color: #ffffff;
+}
+
+.tdropbtn:hover .tdropdown-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tdropbtn:hover {
+    color: rgb(180, 137, 50);
+}
+
+simboli1 {
+    font-family: frecce;
+    font-size: 19px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.tdropbtn:hover simboli1 {
+    transform: rotate(180deg);
+}
+
+.tldropbtn:hover simboli1 {
+    transform: rotate(180deg);
+}
+
+
+/* fine caselle menu */
+
+/* inizio logo menu*/
+
+#tlogo {
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+#tlogo img {
+    height: 53px;
+    margin-top: 22px;
+    margin-left: 22px;
+    transition: all 0.3s;
+    float: left;
+}
+
+#tlogo:hover img {
+    height: 58px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#tlogo:hover .titologo {
+    margin-left: 0px;
+}
+
+.ttitologo {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 15px;
+    padding-right: 5px;
+    font-size: 17px;
+    color: white;
+    float: left;
+    transition: all 0.3s;
+}
+
+grassetto {
+    font-weight: 700;
+}
+
+/*lingua*/
+
+#tlingua {
+    position: absolute;
+    right: 0;
+    margin-top: -71px;
+    margin-right: -16px;
+}
+
+.tldropbtn {
+    color: white;
+    margin: 7px 20px 0;
+    padding: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    transition: all 0.2s;
+    border-radius: 3%;
+}
+
+.tldropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.tldropdown-content {
+    display: block;
+    position: absolute;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: -8px;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5%;
+}
+
+.tldropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    border: 2px;
+    padding: 0;
+    padding: 5px 20px 5px 8px;
+    transition: all 0.2s;
+    width: auto;
+    background-color: #f1f1f1d7;
+    font-size: 20px;
+    border-radius: 3%;
+}
+
+.tldropdown-content a:hover {
+    background-color: rgb(180, 137, 50);
+    border: 0;
+    color: #ffffff;
+}
+
+.tldropbtn:hover .tldropdown-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tldropbtn:hover {
+    color: rgb(180, 137, 50);
+}
+
+#tlingua img {
+    height: 16px;
+    margin-right: 7px;
+}
+
+/*cosa*/
+
+#cosa {
+    width: 100%;
+    height: 10000px;
+}
+
+#cosa img {
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: frecce;
+    src: url(fonts/frecce.ttf);
+}
+
+@font-face {
+    font-family: font1medio;
+    src: url(fonts/font1medio.ttf);
+}
+
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/font2.ttf);
+}
+
+/* effetti */
+
+.tmenu button {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: font2;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    padding: 0;
+    width: auto;
+}
+
+.tmenu button:focus,
+.tmenu button:hover {
+    color: #fff;
+}
+
+.tmenu button:focus:after,
+.tmenu button:hover:after {
+    width: 50%;
+    left: 25%;
+}
+
+.tmenu button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(180, 137, 50);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.tmenu button:hover a {
+    color: rgb(180, 137, 50);
+}
+
+
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.zcontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zcontent {
+    text-align: center;
+}
+
+h2 {
+    z-index: 11;
+    font-family: "EB Garamond";
+    font-style: italic;
+    height: auto;
+    width: auto;
+    color: rgb(180, 137, 50);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 50px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    text-align: center;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(fonts/LEMONMILK-Regular.otf);
+}
+
+.zcontent h1 {
+    z-index: 8;
+    font-family: font1;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 87px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 71px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/Nexa-ExtraLight.ttf);
+}
+
+.zbox {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 40px;
+    font-family: font2;
+    margin-left: 43%;
+}
+
+.zbox:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.zbox:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+
+.zbox:hover:before {
+    border-color: rgb(180, 137, 50);
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+
+.zbox:hover:after {
+    border-color: rgb(180, 137, 50);
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+}
+
+
+.zbutton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.zbackground-clip {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+div.Qcontenitore {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.Qseccontenitore {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 3dvw;
+    margin-top: 4dvh;
+    margin-bottom: 8dvh;
+    flex-direction: row;
+}
+
+iframe.Qmappa {
+    width: 40dvw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.Qparallax {
+    background-image: url("images/duomointerno.jpg");
+    min-height: 350px;
+    /*Modificate l'altezza se non è giusta*/
+    background-attachment: fixed;
+    /*Tutto                                      */
+    background-position: center;
+    /*Questo                                      */
+    background-repeat: no-repeat;
+    /*È                                      */
+    background-size: cover;
+    /*Parallax                                      */
+}
+
+div.Qtitoloetesto {
+    margin-right: 3dvw;
+}
+
+div.Qtitolo {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(180, 137, 50);
+}
+
+div.Qmuroditesto {
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+}
+
+div.Qmappa {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Acontenitore
+{
+width: 100%;
+height: 500px;
+background-color: rgb(255, 255, 255);
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 90px;
+margin-top: 90px;
+}
+
+h1
+{
+color: rgb(182, 152, 93);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 35px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.Aahref
+{
+text-decoration: none;
+color: rgb(182, 152, 93);
+}
+
+.Acard-container {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    padding-left: 80px;
+  }
+  
+  .Acard-container::before {
+    content: "";
+    z-index: -1;
+    inset: 0;
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+  }
+  
+  .Acard {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .Aimg-content img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: scale 0.6s, rotate 0.6s, filter 0.5s;
+  }
+
+  .Acontent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: #ffffff;
+    line-height: 1.5;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(50px);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    padding-left: 80px;
+  }
+  
+ .Aheading {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .Acard:hover .Acontent {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .Acard:hover .Aimg-content img{
+    scale: 1.1;
+    filter: brightness(60%);
+  }
+
+/*Harrach footer*/
+
+#footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    position: absolute;
+    margin-top: 10px;
+    background: rgb (182, 152, 93);
+    color: white ;
+    font-size:13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo1{
+    width:80px;
+    margin-bottom: 30px;
+}
+
+
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+.socialmedia-icons .fa-brands{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+}
+
+.socialmedia-icons .fa-facebook:hover{
+    background-color: #3300ff;
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.socialmedia-icons .fa-youtube:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.socialmedia-icons .fa-instagram:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 0.5s ease;
+    background: linear-gradient(to right, #cc00ff, #ff4000);
+    color: white;
+}
+
+.socialmedia-icons .fa-x-twitter:hover{
+    background-color: #000000;
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 0.5s ease;
+    color: white;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.underline0{
+    width: 100%;
+    height: 1.5px;
+    background:#767676;
+    border-radius: 3px;
+    position: absolute;
+    top:26;
+    right: 0;
+}
+
+.underline1{
+    width: 100%;
+    height: 1.5px;
+    background:#767676;
+    border-radius: 3px;
+    position: absolute;
+    top:26;
+    right: 0;
+}
+
+.underline2{
+    width: 100%;
+    height: 1.5px;
+    background:#767676;
+    border-radius: 3px;
+    position: absolute;
+    top:26;
+    right: 0;
+}
