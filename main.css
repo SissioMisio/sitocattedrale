@@ -667,7 +667,7 @@ color: rgb(182, 152, 93);
     width: 100%;
     position: absolute;
     margin-top: 10px;
-    background: rgb (182, 152, 93);
+    background: rgb(182, 152, 93);
     color: white ;
     font-size:13px;
     line-height: 20px;
@@ -802,7 +802,7 @@ hr{
     background:#767676;
     border-radius: 3px;
     position: absolute;
-    top:26;
+    top:26px;
     right: 0;
 }
 
@@ -812,7 +812,7 @@ hr{
     background:#767676;
     border-radius: 3px;
     position: absolute;
-    top:26;
+    top:26px;
     right: 0;
 }
 
@@ -822,6 +822,6 @@ hr{
     background:#767676;
     border-radius: 3px;
     position: absolute;
-    top:26;
+    top:26px;
     right: 0;
 }
