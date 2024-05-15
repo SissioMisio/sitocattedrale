@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>///</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" id="cssPrincipale" type="text/css">
+    <!--Id cssPrincipale in modo che posso riferirmi a questo nel JavaScript-->
+    <link rel="stylesheet" href="menu.css" id="cssMenu" type="text/css">
+    <!--Id cssMenu in modo che posso riferirmi a questo nel JavaScript-->
+    <link rel="stylesheet" href="carte.css" id="cssCarte" type="text/css">
+    <link rel="stylesheet" href="carte2.css" id="cssCarte2" type="text/css">
+
+
+    <!--SocialMedia icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/ec6d9d37ac.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Includo lo script di JQuery-->
+    <script src="menujs.js"></script>
+    <!--Includo lo script che permette di cambiare il css quando scendo nella pagina-->
+    <!--js carte-->
+    <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+
+    <!--Menù-->
+    <div id="tstrisciamenu">
+        <div id="tlogo">
+            <a href="x.html">
+                <img src="images/logo.png">
+                <div class="ttitologo">Cattedrale di <br>
+                    <grassetto>San Giorgio</grassetto>
+                </div>
+            </a>
+        </div>
+
+        <div class="tmenu">
+            <ul>
+                <li class="tsegnaposto">
+                    <button><a href="#x.html">Home</a></button>
+                </li>
+                <li>
+                    <button><a href="#x.html">Storia</a></button>
+                </li>
+                <li class="tdropdown">
+                    <div class="tdropbtn">
+                        Struttura <simboli1>T</simboli1>
+                        <div class="tdropdown-content">
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="tdropdown">
+                    <div class="tdropbtn">
+                        Opere <simboli1>T</simboli1>
+                        <div class="tdropdown-content">
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                            <a href="#">titolotitolotitolo</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tlingua">
+            <div class="tldropdown">
+                <div class="tldropbtn">
+                    <img src="images/itaflag.png">Italiano <simboli1>T</simboli1>
+                    <div class="tldropdown-content">
+                        <a href="#"><img src="images/engflag.png">English</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Video-->
+    <div class="zcontainer">
+        <video src="videos/videoshow.mp4" autoplay muted loop class="zbackground-clip"></video>
+        <div class="zcontent">
+            <h2>Benvenuti nella</h2>
+            <h1>CATTEDRALE DI SAN GIORGIO</h1>
+            <div class="zbutton">
+                <span class="zbox">
+                    <h3>Esplora</h3>
+                </span>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Contenuto-->
+    <div class="Qcontenitore">
+        <div id="tcontenitorecaselle">
+        <div class="tbox">
+            <div class="tcard-container">
+                <div class="tcard">
+                    <div class="tfront-content">
+                        <p>Hover me</p>
+                    </div>
+                    <div class="tcontent">
+                        <p class="theading">Card Hover</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipii
+                            voluptas ten mollitia pariatur odit, ab
+                            minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                            necessitatibus dignissimos molestias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbox">
+            <div class="tcard-container">
+                <div class="tcard">
+                    <div class="tfront-content">
+                        <p>Hover me</p>
+                    </div>
+                    <div class="tcontent">
+                        <p class="theading">Card Hover</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipii
+                            voluptas ten mollitia pariatur odit, ab
+                            minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                            necessitatibus dignissimos molestias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbox">
+            <div class="tcard-container">
+                <div class="tcard">
+                    <div class="tfront-content">
+                        <p>Hover me</p>
+                    </div>
+                    <div class="tcontent">
+                        <p class="theading">Card Hover</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipii
+                            voluptas ten mollitia pariatur odit, ab
+                            minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                            necessitatibus dignissimos molestias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="Qseccontenitore">
+
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo">Titotitotiottitotitito</div>
+                <div class="Qmuroditesto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel rhoncus metus, at varius dui.
+                    Pellentesque id ligula nunc. Sed feugiat dolor non lacinia vehicula. Nulla sit amet massa sit amet
+                    turpis suscipit gravida eu a tortor. Aenean id dapibus lectus. In in venenatis metus. Ut eget
+                    placerat dui. Etiam posuere venenatis orci auctor posuere. Donec rutrum consectetur metus in
+                    lacinia. Duis efficitur urna mauris, sed pulvinar tortor consequat in. Mauris non felis vel turpis
+                    elementum vulputate ut ac neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+                    rhoncus metus, at varius dui.
+                    Pellentesque id ligula nunc. Sed feugiat dolor non lacinia vehicula. Nulla sit amet massa sit amet
+                    turpis suscipit gravida eu a tortor
+                </div>
+            </div>
+
+            <div>
+                <iframe class="Qmappa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.3025545782693!2d11.617136376982842!3d44.83577147514744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4e6b0ed3a259%3A0x6f2e5b59c7385be!2sCathedral%20of%20Ferrara!5e0!3m2!1sen!2sit!4v1715163700951!5m2!1sen!2sit"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- carte -->
+    <div id="tcarte">
+        <div class="titolocarte">Titolo Parte Esterna</div>
+        <carte>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+
+        </carte>
+        <div class="titolocarte">Titolo Parte Interna</div>
+        <carte>
+            <div class="wrapper2">
+                <i id="left2" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel2">
+                    <li class="card2">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card2">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card2">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card2">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card2">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                    <li class="card2">
+                        <img draggable="false" src="altare-isnello-marmi-policromi-cefalù-5.jpg">
+                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                    </li>
+                </ul>
+                <i id="right2" class="fa-solid fa-angle-right"></i>
+            </div>
+
+        </carte>
+    </div>
+    <!--Footer-->
+    <div id="footer">
+        <div class="row">
+            <div class="col">
+                <img src="images/logo.png" class="logo1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero ad, molestiae sequi,
+                    quibusdam nostrum iure vitae pariatur autem error, odit nulla necessitatibus deleniti sapiente
+                    accusantium. Necessitatibus harum voluptatum sit.</p>
+            </div>
+
+            <div class="col">
+                <h3>Office <div class="underline0"></div>
+                </h3>
+                <p> STREET</p>
+                <p>CITY,Postal code </p>
+                <p>Nation</p>
+                <p class="email-id">// e-mail //</p>
+                <p>phone number</p>
+            </div>
+
+            <div class="col">
+                <h3>Links <div class="underline1"></div>
+                </h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contats</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3>Newsletter <div class="underline2"></div>
+                </h3>
+                <form>
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your e-mail id" required>
+                </form>
+
+                <div class="socialmedia-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-Youtube"></i>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> 3G © 2024 - All rights Reserved </p>
+    </div>
+    </div>
+</body>
+
+</html>

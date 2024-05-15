@@ -1,0 +1,132 @@
+
+/*camecard*/
+#tcarte{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+carte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+
+.titolocarte{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+.wrapper i:first-child {
+    left: -22px;
+    z-index: +5;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+    z-index: +5;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4) - 12px);
+    /*numero card*/
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel :where(.card, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height: auto;
+    list-style: none;
+    background: #000000a9;
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+/*carte*/
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    filter: brightness(60%);
+    transition: all 0.3s;
+}
+
+.card:hover img {
+    filter: brightness(100%);
+}
+
+.titoloimg {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    background: #c18f25;
+}
