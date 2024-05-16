@@ -259,52 +259,6 @@ grassetto {
 }
 
 
-/* effetti */
-
-.tmenu button {
-    font-size: 18px;
-    color: #ffffff;
-    font-family: font2;
-    cursor: pointer;
-    position: relative;
-    border: none;
-    background: none;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 400ms;
-    transition-property: color;
-    padding: 0;
-    width: auto;
-}
-
-.tmenu button:focus,
-.tmenu button:hover {
-    color: #fff;
-}
-
-.tmenu button:focus:after,
-.tmenu button:hover:after {
-    width: 50%;
-    left: 25%;
-}
-
-.tmenu button:after {
-    content: "";
-    pointer-events: none;
-    bottom: -2px;
-    left: 50%;
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background-color: rgb(180, 137, 50);
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 400ms;
-    transition-property: width, left;
-}
-
-.tmenu button:hover a {
-    color: rgb(180, 137, 50);
-}
-
 
 
 
@@ -358,10 +312,7 @@ h2 {
     padding: 30px;
 }
 
-@font-face {
-    font-family: font1;
-    src: url(fonts/LEMONMILK-Regular.otf);
-}
+
 
 .zcontent h1 {
     z-index: 8;
@@ -387,10 +338,7 @@ h2 {
     visibility: visible;
 }
 
-@font-face {
-    font-family: font2;
-    src: url(fonts/Nexa-ExtraLight.ttf);
-}
+
 
 .zbox {
     width: 140px;
