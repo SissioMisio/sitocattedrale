@@ -259,22 +259,6 @@ grassetto {
 }
 
 
-@font-face {
-    font-family: frecce;
-    src: url(fonts/frecce.ttf);
-}
-
-@font-face {
-    font-family: font1medio;
-    src: url(fonts/font1medio.ttf);
-}
-
-
-@font-face {
-    font-family: font2;
-    src: url(fonts/font2.ttf);
-}
-
 /* effetti */
 
 .tmenu button {
@@ -652,10 +636,7 @@ div.Qtitolo {
     margin-bottom: 2.5%;
     font-weight: 700;
 }
-@font-face {
-    font-family: font5;
-    src: url(fonts/MinSans-Regular.ttf);
-}
+
 div.Qmuroditesto {
     font-size: 22px;
     color: rgb(42, 42, 42);
@@ -740,10 +721,7 @@ div.Qmappa {
   }
 
 /*Harrach footer*/
-@font-face {
-    font-family: font4;
-    src: url(fonts/MinSans-Regular.ttf);
-}
+
 #footer{
     font-family:font4;
     width: 100%;
