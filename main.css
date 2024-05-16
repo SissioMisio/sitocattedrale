@@ -97,7 +97,6 @@ body {
     display: block;
     margin: 0;
     border: 0;
-    padding: 0;
     padding: 10px 20px 10px;
     transition: all 0.2s;
     width: auto;
@@ -220,7 +219,6 @@ grassetto {
     display: block;
     margin: 0;
     border: 2px;
-    padding: 0;
     padding: 5px 20px 5px 8px;
     transition: all 0.2s;
     width: auto;
@@ -364,7 +362,6 @@ h2 {
     min-width: 0px;
     max-height: none;
     max-width: none;
-    text-align: left;
     line-height: 35px;
     letter-spacing: 3px;
     font-weight: 500;
@@ -503,9 +500,13 @@ h2 {
     overflow: hidden;   
     border-bottom: 1px;
     border-right: 1px;
-    border-color: #363636;
+    border-color: #6e6e6e4a;
     border-style: solid;
     
+}
+
+.tbox a{
+    text-decoration: none;
 }
 
 .tcard-container {
@@ -534,14 +535,14 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     opacity: 1;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
-  .tcard .tcontent {
+  .tcard .tcontent1, .tcontent2, .tcontent3 {
     position: absolute;
     top: 0;
     left: 0;
@@ -553,7 +554,6 @@ h2 {
     justify-content: center;
     text-align: center;
     gap: 10px;
-    background: linear-gradient(-45deg, #c09a33 0%, #000000 100% );
     color: #e8e8e8;
     padding: 20px;
     line-height: 1.5;
@@ -562,12 +562,38 @@ h2 {
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
-  .tcard .tcontent .theading {
+  .tcard .tcontent1{
+    background-color: rgb(180, 137, 50);
+    background: linear-gradient(to top, rgba(180, 137, 50, 0.934), rgba(180, 137, 50, 0.918)), url(altare-isnello-marmi-policromi-cefalù-5.jpg);
+    background-size: cover;
+  }
+
+  .tcard .tcontent2{
+    background-color: #939393;
+    background: linear-gradient(to top, #939393e9, #939393e8), url(altare-isnello-marmi-policromi-cefalù-5.jpg);
+    background-size: cover;
+  }
+
+  .tcard .tcontent3{
+    background-color: #1b1b1b;
+    background: linear-gradient(to top, #1b1b1be0, #1b1b1be1), url(altare-isnello-marmi-policromi-cefalù-5.jpg);
+    background-size: cover;
+  }
+
+  .tcard .theading {
     font-size: 32px;
     font-weight: 700;
   }
   
-  .tcard:hover .tcontent {
+  .tcard:hover .tcontent1 {
+    transform: translateY(0);
+  }
+
+  .tcard:hover .tcontent2 {
+    transform: translateY(0);
+  }
+
+  .tcard:hover .tcontent3 {
     transform: translateY(0);
   }
   
@@ -578,9 +604,7 @@ h2 {
   .tcard:hover .tfront-content p {
     opacity: 0;
   }
-  
 
-  
 div.Qcontenitore {
     width: 100%;
     height: auto;
@@ -588,30 +612,36 @@ div.Qcontenitore {
     flex-direction: column;
     justify-content: center;
     background-color: white;
+    
 }
 
 div.Qseccontenitore {
     box-sizing: border-box;
-    width: 100%;
+    width: 92%;
     height: auto;
     display: flex;
-    padding: 3dvw;
-    margin-top: 4dvh;
-    margin-bottom: 8dvh;
     flex-direction: row;
+    background-color: #efefef;
+    margin: 4%;
 }
 
 iframe.Qmappa {
-    width: 20dvw;
-    height: 20dvw;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
 
 div.Qtitoloetesto {
-    margin-right: 3dvw;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 40%;
+
+}
+
+.tmappa{
+    width: 50%;
 }
 
 div.Qtitolo {
@@ -619,22 +649,95 @@ div.Qtitolo {
     text-align: center;
     font-size: 35px;
     color: rgb(180, 137, 50);
+    margin-bottom: 2.5%;
+    font-weight: 700;
 }
 @font-face {
     font-family: font5;
     src: url(fonts/MinSans-Regular.ttf);
 }
 div.Qmuroditesto {
-    text-align: justify;
     font-size: 22px;
-    color: rgb(255, 255, 255);
+    color: rgb(42, 42, 42);
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5%;
+    text-align: justify;
 }
 
 div.Qmappa {
     width: 100%;
     height: 100%;
 }
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: rgba(180, 137, 50, 0.738);
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #000000;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #ffffff;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(180, 137, 50, 0.855);
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+    stroke: rgba(180, 137, 50, 0.738);
+  }
+
+  .cta:hover span{
+    color: rgba(180, 137, 50, 0.738);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
+
+  .tbutton{
+    text-align: center;
+  }
 
 /*Harrach footer*/
 @font-face {
@@ -700,7 +803,6 @@ ul li{
 }
 
 .col ul li a:hover{
-    text-decoration: none;
     color: #000000;
     text-decoration: underline;
 }
@@ -789,7 +891,7 @@ hr{
     background:#767676;
     border-radius: 3px;
     position: absolute;
-    top:26;
+    top: 26px;
     right: 0;
 }
 
@@ -799,7 +901,7 @@ hr{
     background:#767676;
     border-radius: 3px;
     position: absolute;
-    top:26;
+    top: 26px;
     right: 0;
 }
 
@@ -809,6 +911,6 @@ hr{
     background:#767676;
     border-radius: 3px;
     position: absolute;
-    top:26;
+    top: 26px;
     right: 0;
 }
