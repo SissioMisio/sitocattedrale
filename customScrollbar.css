@@ -1,0 +1,20 @@
+/* larghezza scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* binari scrollbar */
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+/* maniglia scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    transition: all 0.3s;
+}
+
+/* maniglia scrollbar hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(180, 137, 50);
+}

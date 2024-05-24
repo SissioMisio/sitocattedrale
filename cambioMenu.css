@@ -1,6 +1,7 @@
-#strisciamenu {
-    background-color: red;
+#tstrisciamenu {
+    background-color: rgba(0, 0, 0, 0.822);
     width: 100%;
     position: fixed;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
+
