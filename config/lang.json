@@ -1,0 +1,280 @@
+{
+  "titolo_text": {
+    "it": "HOME",
+    "en": "INGLESEEEE"
+  },
+
+  "home_text": {
+    "it": "Home",
+    "en": "ingleselol"
+  },
+  "storia_text": {
+    "it": "Storia",
+    "en": "ingleselol"
+  },
+  "struttura_text": {
+    "it": "Struttura",
+    "en": "ingleselol"
+  },
+  "titolo1_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "titolo2_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "titolo3_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "titolo4_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "opere_text": {
+    "it": "Opere",
+    "en": "ingleselol"
+  },
+  "titolo5_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "titolo6_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "titolo7_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "titolo8_text": {
+    "it": "titolotitolotitolo",
+    "en": "ingleselol"
+  },
+  "cattedraledi_text": {
+    "it": "Cattedrale di",
+    "en": "inglese"
+  },
+  "sangiorgio_text": {
+    "it": "San Giorgio",
+    "en": "palle"
+  },
+  "benvenutinella_text": {
+    "it": "Benvenuti nella",
+    "en": "ingleselol"
+  },
+  "catsangior_text": {
+    "it": "CATTEDRALE DI SAN GIORGIO",
+    "en": "ingleselol"
+  },
+  "visitavirtuale_text": {
+    "it": "Visita Virtuale",
+    "en": "ingleselol"
+  },
+  "visitavirtuale2_text": {
+    "it": "Visita Virtuale",
+    "en": "ingleselol"
+  },
+  "espimmers_text": {
+    "it": "Vivi la Cattedrale di Ferrara in questa esperienza immersiva.",
+    "en": "ingleselol"
+  },
+  "radici_text": {
+    "it": "Radici Antiche",
+    "en": "ingleselol"
+  },
+  "radici2_text": {
+    "it": "Radici Antiche",
+    "en": "ingleselol"
+  },
+  "origini_text": {
+    "it": "Scopri le origini della cattedrale e le sue trasformazioni durante i secoli.",
+    "en": "ingleselol"
+  },
+  "tesori_text": {
+    "it": "Tesori Nascosti",
+    "en": "ingleselol"
+  },
+  "tesori2_text": {
+    "it": "Tesori Nascosti",
+    "en": "ingleselol"
+  },
+  "esploraopere_text": {
+    "it": "Esplora le opere d'arte e i preziosi artefatti",
+    "en": "ingleselol"
+  },
+  "introduzione_text": {
+    "it": "Introduzione cattedrale",
+    "en": "ingleselol"
+  },
+  "muroditesto_text": {
+    "it": "Scopri la maestosa Cattedrale di San Giorgio, un gioiello architettonico che racconta secoli di storia, fede e arte. Situata nel cuore della città, la cattedrale incanta i visitatori con la sua imponente facciata, le sue maestose torri e gli affreschi che decorano le sue pareti. Fondata nel XI secolo e ampliata nel corso dei secoli, questa meraviglia gotica testimonia l'importanza spirituale e culturale della città di Ferrara nel corso dei secoli.",
+    "en": "ingleselol"
+  },
+  "scopripiu_text": {
+    "it": "Scopri di più",
+    "en": "ingleselol"
+  },
+  "titolocarte_text": {
+    "it": "Titolo Parte Esterna",
+    "en": "ingleselol"
+  },
+  "altare1_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare2_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare3_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare4_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare5_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare6_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "titolocarte2_text": {
+    "it": "Titolo Parte Interna",
+    "en": "ingleselol"
+  },
+  "altare21_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare22_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare23_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare24_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare25_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "altare26_text": {
+    "it": "Altare Altare Nome Altare",
+    "en": "ingleselol"
+  },
+  "footer_text": {
+    "it": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero ad, molestiae sequi, quibusdam nostrum iure vitae pariatur autem error, odit nulla necessitatibus deleniti sapiente accusantium. Necessitatibus harum voluptatum sit.",
+    "en": "ingleselol"
+  },
+
+
+
+
+
+  "titolo_opere_text": {
+    "it": "OPERE",
+    "en": "INGLESEEEE"
+  },
+
+  "testogrande_text": {
+    "it": "titotitotot",
+    "en": "no"
+  },
+  "sottotitolo_text": {
+    "it": "EHTGEUIGHOUREHGORHGFOUHE",
+    "en": "ioquando inglese"
+  },
+  "sguasto_text": {
+    "it": "Uno Sguardo Storico",
+    "en": "ioquando inglese"
+  },
+  "muroditesto2_text": {
+    "it": "La <b>prima cattedrale di Ferrara</b> è stata la <b>chiesa di San Giorgio</b>, situata al limite sud-orientale della città, nell’antico borgo omonimo che si raggiunge passando il ponte sul Po di Volano; qui intorno alla metà del VII secolo era stata trasferita la sede del vescovo, eretta in epoca paleocristiana da papa Silvestro I nella vicina Voghenza.<br>Il <b>30 Settembre 1132</b>, a Pisa, <b>papa Innocenzo II</b> consegna al vescovo, ai consoli e al popolo di Ferrara il Breve di concessione per la costruzione del nuovo duomo, che sarebbe stato costruito su un terreno dato in donazione dalla comunità ferrarese alla Santa Sede e sotto la protezione apostolica; la costruzione del <b>nuovo duomo</b> sarebbe stata <b>simbolo di autonomia e grandioso elemento urbanistico</b> intorno a cui far ruotare i due blocchi storici: quello bizantino-longo-bardo e quello dei nuovi quartieri rappresentanti l'ampliamento edilizio della città nel XI secolo.<br>La chiesa, a causa di varie vicende, fu <b>modificato sotto l'aspetto esterno e completamente sotto l'aspetto interno</b>.<br>Le modifiche più significative che hanno mutato l'assetto interno della chiesa sono state quelle fatte in epoca quattrocentesca dovute all'intervento rossettiano nella zona absidale. L'esterno della chiesa che si vede al giorno d'oggi è frutto di <b>molteplici mutamenti e inserimenti</b> che stratificandosi, hanno reso notevolmente complessa la lettura dello stato architettonico originario.",
+    "en": "ioquando inglese"
+  },
+  "murotesto3_text": {
+    "it": "non avevo voglia di ricopiare lo lorem ipsum :)",
+    "en": "ioquando inglese"
+  },
+
+
+
+
+
+  "titolo_storia_text": {
+    "it": "STORIA",
+    "en": "INGLESEEEE"
+  },
+
+  "introduzione2_text": {
+    "it": "Uno Sguardo Storico",
+    "en": "ioquando inglese"
+  },
+  "murotesto4_text": {
+    "it": "La <b>prima cattedrale di Ferrara</b> è stata la <b>chiesa di San Giorgio</b>, situata al limite sud-orientale della città, nell’antico borgo omonimo che si raggiunge passando il ponte sul Po di Volano; qui intorno alla metà del VII secolo era stata trasferita la sede del vescovo, eretta in epoca paleocristiana da papa Silvestro I nella vicina Voghenza.<br>Il <b>30 Settembre 1132</b>, a Pisa, <b>papa Innocenzo II</b> consegna al vescovo, ai consoli e al popolo di Ferrara il Breve di concessione per la costruzione del nuovo duomo, che sarebbe stato costruito su un terreno dato in donazione dalla comunità ferrarese alla Santa Sede e sotto la protezione apostolica; la costruzione del <b>nuovo duomo</b> sarebbe stata <b>simbolo di autonomia e grandioso elemento urbanistico</b> intorno a cui far ruotare i due blocchi storici: quello bizantino-longo-bardo e quello dei nuovi quartieri rappresentanti l'ampliamento edilizio della città nel XI secolo.<br>La chiesa, a causa di varie vicende, fu <b>modificato sotto l'aspetto esterno e completamente sotto l'aspetto interno</b>.<br>Le modifiche più significative che hanno mutato l'assetto interno della chiesa sono state quelle fatte in epoca quattrocentesca dovute all'intervento rossettiano nella zona absidale. L'esterno della chiesa che si vede al giorno d'oggi è frutto di <b>molteplici mutamenti e inserimenti</b> che stratificandosi, hanno reso notevolmente complessa la lettura dello stato architettonico originario.",
+    "en": "ioquando inglese"
+  },
+
+
+
+
+
+  "titolo_struttura_text": {
+    "it": "STRUTTURA",
+    "en": "ioquando inglese"
+  },
+  "titstrutt_text": {
+    "it": "Un capolavoro di",
+    "en": "ioquando inglese"
+  },
+  "titolo1_strut_text": {
+    "it": "L'Evoluzione Architettonica",
+    "en": "ioquando inglese"
+  },
+  "sottotit1_strut_text": {
+    "it": "Le principali trasformazioni che la cattedrale ha subìto includono la distruzione dell'antica abside alla fine del XVI secolo, modifiche liturgiche per adattarsi al Concilio di Trento e una completa trasformazione dell'interno nell'inizio del XVIII secolo. Sin dalla sua origine l'edificio ha subito continui cambiamenti, rendendolo simile a un organismo vivente. La trasformazione iniziò dal fianco meridionale dell'edificio nel 1287 con l'installazione di botteghe per i mercanti, seguita nel 1332 dalla richiesta di trasformare queste botteghe in strutture più stabili per migliorare l'aspetto della città. Nel 1472, durante le nozze di Ercole I con Eleonora d'Aragona, fu creata una loggia sopra le botteghe, con una balconata per gli spettatori dei giochi sulla piazza. Nel 1591 il vescovo ordinò la demolizione delle botteghe lignee nell'area del duomo per motivi di sicurezza e decoro cittadino. Nel 1844, si discusse la riorganizzazione del portico, con un progetto di rinnovamento che prevedeva arcate a",
+    "en": "ioquando inglese"
+  },
+  "sottitstrutt_text": {
+    "it": "ARCHITETTURA",
+    "en": "ioquando inglese"
+  },
+  "scopri_strut_text": {
+    "it": "Scopri di più",
+    "en": "ioquando inglese"
+  },
+  "murotesto5_strut_text": {
+    "it": "Le principali trasformazioni che la cattedrale ha subìto includono la distruzione dell'antica abside alla fine del XVI secolo, modifiche liturgiche per adattarsi al Concilio di Trento e una completa trasformazione dell'interno nell'inizio del XVIII secolo. Sin dalla sua origine l'edificio ha subito continui cambiamenti, rendendolo simile a un organismo vivente. La trasformazione iniziò dal fianco meridionale dell'edificio nel 1287 con l'installazione di botteghe per i mercanti, seguita nel 1332 dalla richiesta di trasformare queste botteghe in strutture più stabili per migliorare l'aspetto",
+    "en": "ioquando inglese"
+  },
+  "scopri_strut_text2": {
+    "it": "Scopri di più",
+    "en": "ioquando inglese"
+  },
+  "evoluz_strut_text": {
+    "it": "L'Evoluzione Architettonica",
+    "en": "ioquando inglese"
+  },
+  "evoluz_strut_text": {
+    "it": "L'Evoluzione Architettonica",
+    "en": "ioquando inglese"
+  },
+  "evoluz_strut_text": {
+    "it": "L'Evoluzione Architettonica",
+    "en": "ioquando inglese"
+  },
+  "evoluz_strut_text": {
+    "it": "L'Evoluzione Architettonica",
+    "en": "ioquando inglese"
+  }
+}

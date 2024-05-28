@@ -181,6 +181,7 @@ simboliMenu {
 /*lingua*/
 
 #tlingua {
+    cursor: default;
     position: absolute;
     right: 0;
     margin-top: -77px;

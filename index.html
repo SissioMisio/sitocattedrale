@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HOME</title>
+    <traduzione id="titolo_text"><title>Loading Language..!</title></traduzione>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" id="cssPrincipale" type="text/css">
@@ -22,25 +22,25 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/ec6d9d37ac.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--Includo lo script di JQuery-->
-    <script src="js/menujs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--Includo lo script che permette di cambiare il css quando scendo nella pagina-->
+    <script src="js/menujs.js"></script>
     <!--js carte-->
     <script src="js/carte.js" defer></script>
     <script src="js/carte2.js" defer></script>
+    <!--js cambio lingua-->
+    <script src="js/changeLang.js" defer></script>
 </head>
 
 <body>
-
     <!--Menù-->
     <div id="tstrisciamenu">
         <div id="tlogo">
-            <a href="home.html">
+            <a href=".">
                 <img src="images/menu/logo.png">
-                <div class="ttitologo">Cattedrale di <br>
-                    <grassettoMenu>San Giorgio</grassettoMenu>
+                <div class="ttitologo"><traduzione id="cattedraledi_text">Loading, please wait.</traduzione><br>
+                    <grassettoMenu><traduzione id="sangiorgio_text">Loading, please wait.</traduzione></grassettoMenu>
                 </div>
             </a>
         </div>
@@ -48,30 +48,30 @@
         <div class="tmenu">
             <ul>
                 <li class="tsegnaposto">
-                    <button><a href="home.html">Home</a></button>
+                    <button><a href="."><traduzione id="home_text">Loading</traduzione></a></button>
                 </li>
                 <li>
-                    <button><a href="storia.html">Storia</a></button>
+                    <button><a href="storia/"><traduzione id="storia_text">Loading</traduzione></a></button>
                 </li>
                 <li class="tdropdown">
-                    <div class="tdropbtn" href="struttura.html"><!-- inserire link esterno-->
-                        <a class="tlink" href="struttura.html">Struttura <simboliMenu>T</simboliMenu></a>
+                    <div class="tdropbtn"><!-- inserire link esterno-->
+                        <a class="tlink" href="struttura/"><traduzione id="struttura_text">Loading</traduzione> <simboliMenu>T</simboliMenu></a>
                         <div class="tdropdown-content">
-                            <a href="#">titolotitolotitolo</a>
-                            <a href="#">titolotitolotitolo</a>
-                            <a href="#">titolotitolotitolo</a>
-                            <a href="#">titolotitolotitolo</a>
+                            <a href="#"><traduzione id="titolo1_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo2_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo3_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo4_text">Loading, please wait.</traduzione></a>
                         </div>
                     </div>
                 </li>
                 <li class="tdropdown">
-                    <div class="tdropbtn" href="opere.html"><!-- inserire link interno-->
-                        <a class="tlink" href="opere.html">Opere <simboliMenu>T</simboliMenu></a>
+                    <div class="tdropbtn"><!-- inserire link interno-->
+                        <a class="tlink" href="opere/"><traduzione id="opere_text">Loading</traduzione> <simboliMenu>T</simboliMenu></a>
                         <div class="tdropdown-content">
-                            <a href="#">titolotitolotitolo</a>
-                            <a href="#">titolotitolotitolo</a>
-                            <a href="#">titolotitolotitolo</a>
-                            <a href="#">titolotitolotitolo</a>
+                            <a href="#"><traduzione id="titolo5_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo6_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo7_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo8_text">Loading, please wait.</traduzione></a>
                         </div>
                     </div>
                 </li>
@@ -80,9 +80,9 @@
         <div id="tlingua">
             <div class="tldropdown">
                 <div class="tldropbtn">
-                    <img src="images/menu/itaflag.png">Italiano <simboliMenu>T</simboliMenu>
+                    <cambioLingua id="main_lingua">Loading language...</cambioLingua> <simboliMenu>T</simboliMenu>
                     <div class="tldropdown-content">
-                        <a href="#"><img src="images/menu/engflag.png">English</a><!-- cambio lingua-->
+                        <cambioLingua id="dropdown_lingua"><a onclick="setLanguage('en')">Loading language...</a></cambioLingua><!-- cambio lingua-->
                     </div>
                 </div>
             </div>
@@ -93,14 +93,14 @@
     <div class="zcontainer">
         <video src="videos/videoshow.mp4" autoplay muted loop class="zbackground-clip"></video>
         <div class="zcontent">
-            <h2>Benvenuti nella</h2>
-            <h1>CATTEDRALE DI SAN GIORGIO</h1>
+            <h2><traduzione id="benvenutinella_text">Loading, please wait.</traduzione></h2>
+            <h1><traduzione id="catsangior_text">CARICAMENTO LINGUA...</traduzione></h1>
             <!--<div class="zbutton">
                 <span class="zbox">
                     <h3>Esplora</h3>
                 </span>
-            -->
             </div>
+            -->
         </div>
     </div>
 
@@ -112,12 +112,12 @@
                     <div class="tcard-container">
                         <div class="tcard">
                             <div class="tfront-content">
-                                <p>Visita Virtuale</p>
+                                <p><traduzione id="visitavirtuale_text">Loading, please wait.</traduzione></p>
                             </div>
                             <div class="tcontent1">
-                                <p class="theading">Visita Virtuale</p>
+                                <p class="theading"><traduzione id="visitavirtuale2_text">Loading, please wait.</traduzione></p>
                                 <p>
-                                    Vivi la Cattedrale di Ferrara in questa esperienza immersiva.
+                                    <traduzione id="espimmers_text">Loading, please wait.</traduzione>
                                 </p>
                             </div>
                         </div>
@@ -125,16 +125,16 @@
                 </a>
             </div>
             <div class="tbox">
-                <a href="storia.html">
+                <a href="storia/">
                     <div class="tcard-container">
                         <div class="tcard">
                             <div class="tfront-content">
-                                <p>Radici Antiche</p>
+                                <p><traduzione id="radici_text">Loading, please wait.</traduzione></p>
                             </div>
                             <div class="tcontent2">
-                                <p class="theading">Radici Antiche</p>
+                                <p class="theading"><traduzione id="radici2_text">Loading, please wait.</traduzione></p>
                                 <p>
-                                    Scopri le origini della cattedrale e le sue trasformazioni durante i secoli.
+                                    <traduzione id="origini_text">Loading, please wait.</traduzione>
                                 </p>
                             </div>
                         </div>
@@ -146,14 +146,14 @@
                     <div class="tcard-container">
                         <div class="tcard">
                             <div class="tfront-content">
-                                <p>Tesori Nascosti</p>
+                                <p><traduzione id="tesori_text">Loading, please wait.</traduzione></p>
                             </div>
                             <div class="tcontent3">
                                 <p class="theading">
-                                    Tesori Nascosti
+                                    <traduzione id="tesori2_text">Loading, please wait.</traduzione>
                                 </p>
                                 <p>
-                                    Esplora le opere d'arte e i preziosi artefatti
+                                    <traduzione id="esploraopere_text">Loading, please wait.</traduzione>
                                 </p>
                             </div>
                         </div>
@@ -163,18 +163,14 @@
         </div>
         <div class="Qseccontenitore">
             <div class="Qtitoloetesto">
-                <div class="Qtitolo">Un Capolavoro di Storia e Arte</div>
+                <div class="Qtitolo"><traduzione id="introduzione_text">Loading, please wait.</traduzione></div>
                 <div class="Qmuroditesto">
-                    Scopri la maestosa Cattedrale di San Giorgio, un gioiello architettonico che racconta secoli di
-                    storia, fede e arte. Situata nel cuore della città, la cattedrale incanta i visitatori con la sua
-                    imponente facciata, le sue maestose torri e gli affreschi che decorano le sue pareti. Fondata nel XI
-                    secolo e ampliata nel corso dei secoli, questa meraviglia gotica testimonia l'importanza spirituale
-                    e culturale della città di Ferrara nel corso dei secoli.
+                    <traduzione id="muroditesto_text">Loading, please wait.</traduzione>
                 </div>
-                <a href="storia.html">
+                <a href="storia/">
                     <div class="tbutton">
                         <button class="cta">
-                            <span>Scopri di più</span>
+                            <span><traduzione id="scopripiu_text">Loading, please wait.</traduzione></span>
                             <svg width="15px" height="10px" viewBox="0 0 13 10">
                                 <path d="M1,5 L11,5"></path>
                                 <polyline points="8 1 12 5 8 9"></polyline>
@@ -195,68 +191,68 @@
 
     <!-- carte -->
     <div id="tcarte">
-        <div class="titolocarte">Titolo Parte Esterna</div>
+        <div class="titolocarte"><traduzione id="titolocarte_text">Loading, please wait.</traduzione></div>
         <carte>
             <div class="wrapper">
                 <i id="left" class="fa-solid fa-angle-left"></i>
                 <ul class="carousel">
                     <li class="card">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare1_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare2_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare3_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare4_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare5_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare6_text">Loading, please wait.</traduzione></div>
                     </li>
                 </ul>
                 <i id="right" class="fa-solid fa-angle-right"></i>
             </div>
 
         </carte>
-        <div class="titolocarte">Titolo Parte Interna</div>
+        <div class="titolocarte"><traduzione id="titolocarte2_text">Loading, please wait.</traduzione></div>
         <carte>
             <div class="wrapper2">
                 <i id="left2" class="fa-solid fa-angle-left"></i>
                 <ul class="carousel2">
                     <li class="card2">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare21_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card2">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare22_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card2">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare23_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card2">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare24_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card2">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare25_text">Loading, please wait.</traduzione></div>
                     </li>
                     <li class="card2">
                         <img draggable="false" src="images/altare-isnello.jpg">
-                        <div class="titoloimg">Altare Altare Nome Altare</div>
+                        <div class="titoloimg"><traduzione id="altare26_text">Loading, please wait.</traduzione></div>
                     </li>
                 </ul>
                 <i id="right2" class="fa-solid fa-angle-right"></i>
@@ -269,15 +265,13 @@
         <div class="row">
             <div class="col">
                 <img src="images/footer/logo.png" class="logo1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero ad, molestiae sequi,
-                    quibusdam nostrum iure vitae pariatur autem error, odit nulla necessitatibus deleniti sapiente
-                    accusantium. Necessitatibus harum voluptatum sit.</p>
+                <p><traduzione id="footer_text">Loading, please wait.</traduzione></p>
             </div>
 
-            <div class="col">
+            <div class="col"> <!-- Sono Sissio. Devo mettere la traduzione pure qui? -->
                 <h3>Office <div class="underline0"></div>
                 </h3>
-                <p> STREET</p>
+                <p>STREET</p>
                 <p>CITY,Postal code </p>
                 <p>Nation</p>
                 <p class="email-id">// e-mail //</p>
@@ -287,7 +281,7 @@
             <div class="col">
                 <h3>Links <div class="underline1"></div>
                 </h3>
-                <ul>
+                <ul><!-- Sono Sissio. Non mi sembra concluso questo..? -->
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">About Us</a></li>
@@ -300,7 +294,7 @@
                 <h3>Newsletter <div class="underline2"></div>
                 </h3>
                 <form>
-                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-envelope"></i><!-- Sono Sissio. Non mi sembra concluso questo..? -->
                     <input type="email" placeholder="Enter your e-mail id" required>
                 </form>
 
@@ -312,10 +306,8 @@
                 </div>
             </div>
         </div>
-        <hr>
+        <hr><!-- Sono Sissio. Non mi sembra concluso questo..? -->
         <p class="copyright"> 3G © 2024 - All rights Reserved </p>
     </div>
-    </div>
 </body>
-
 </html>

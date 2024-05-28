@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <traduzione id="titolo_struttura_text"><title>Loading Language..!</title></traduzione>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/struttura.css" id="cssPrincipale" type="text/css">
+    <!--Id cssPrincipale in modo che posso riferirmi a questo nel JavaScript-->
+    <link rel="stylesheet" href="../css/fonts.css" id="fonts" type="text/css">
+    <link rel="stylesheet" href="../css/menu.css" id="cssMenu" type="text/css">
+    <link rel="stylesheet" href="../css/preCambioMenu.css" id="cssCambioMenu" type="text/css">
+    <!--Id cssMenu in modo che posso riferirmi a questo nel JavaScript-->
+    <link rel="stylesheet" href="../css/carte.css" id="cssCarte" type="text/css">
+    <link rel="stylesheet" href="../css/carte2.css" id="cssCarte2" type="text/css">
+    <link rel="stylesheet" href="../css/customScrollbar.css" id="customScrollbar" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" id="cssFooter" type="text/css">
+
+
+    <!--SocialMedia icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/ec6d9d37ac.js"></script>
+    <!--Includo lo script di JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Includo lo script che permette di cambiare il css quando scendo nella pagina-->
+    <script src="../js/menujs.js"></script>
+    <!--js carte-->
+    <script src="../js/carte.js" defer></script>
+    <script src="../js/carte2.js" defer></script>
+    <!--js cambio lingua-->
+    <script src="../js/changeLang.js" defer></script>
+</head>
+
+<body>
+
+    <!--Menù-->
+    <div id="tstrisciamenu">
+        <div id="tlogo">
+            <a href="../">
+                <img src="../images/menu/logo.png">
+                <div class="ttitologo"><traduzione id="cattedraledi_text">Loading, please wait.</traduzione><br>
+                    <grassettoMenu><traduzione id="sangiorgio_text">Loading, please wait.</traduzione></grassettoMenu>
+                </div>
+            </a>
+        </div>
+
+        <div class="tmenu">
+            <ul>
+                <li>
+                    <button><a href="../"><traduzione id="home_text">Loading</traduzione></a></button>
+                </li>
+                <li>
+                    <button><a href="../storia/"><traduzione id="storia_text">Loading</traduzione></a></button>
+                </li>
+                <li class="tsegnaposto">
+                    <div class="tdropdown">
+                        <div class="tdropbtn">
+                            <a class="tlink" href="." style="color:rgb(180, 137, 50);"><traduzione id="struttura_text">Loading</traduzione> <simboliMenu>T</simboliMenu></a>
+                            <div class="tdropdown-content">
+                                <a href="#"><traduzione id="titolo1_text">Loading, please wait.</traduzione></a>
+                                <a href="#"><traduzione id="titolo2_text">Loading, please wait.</traduzione></a>
+                                <a href="#"><traduzione id="titolo3_text">Loading, please wait.</traduzione></a>
+                                <a href="#"><traduzione id="titolo4_text">Loading, please wait.</traduzione></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="tdropdown">
+                    <div class="tdropbtn">
+                        <a class="tlink" href="../opere/"><traduzione id="opere_text">Loading</traduzione> <simboliMenu>T</simboliMenu></a>
+                        <div class="tdropdown-content">
+                            <a href="#"><traduzione id="titolo5_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo6_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo7_text">Loading, please wait.</traduzione></a>
+                            <a href="#"><traduzione id="titolo8_text">Loading, please wait.</traduzione></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tlingua">
+            <div class="tldropdown">
+                <div class="tldropbtn">
+                    <cambioLingua id="main_lingua">Loading language...</cambioLingua> <simboliMenu>T</simboliMenu>
+                    <div class="tldropdown-content">
+                        <cambioLingua id="dropdown_lingua"><a onclick="setLanguage('en')">Loading language...</a></cambioLingua><!-- cambio lingua-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Video-->
+    <div class="zcontainer">
+        <video src="../videos/ESTERNO-lq.mp4" autoplay muted loop class="zbackground-clip"></video>
+        <div class="zcontent">
+            <h2><traduzione id="titstrutt_text">Loading, please wait.</traduzione></h2>
+            <h1><traduzione id="sottitstrutt_text">CARICAMENTO LINGUA...</traduzione></h1>
+        </div>
+    </div>
+
+    <!--Contenuto-->
+    <div class="Qcontenitore">
+        <div class="Qseccontenitore">
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo"><traduzione id="titolo1_strut_text">Loading, please wait.</traduzione></div>
+                <div class="Qmuroditesto"><traduzione id="sottotit1_strut_text">Loading, please wait.</traduzione></div>
+                <a href="../storia/">
+                    <div class="tbutton">
+                        <button class="cta">
+                            <span><traduzione id="scopri_strut_text">Loading, please wait.</traduzione></span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="tmappa">
+                <div class="Qmappa">
+                </div>
+            </div>
+        </div>
+        <div class="Qseccontenitore">
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo"><traduzione id="evoluz_strut_text">Loading, please wait.</traduzione></div>
+                <div class="Qmuroditesto"><traduzione id="murotesto5_strut_text">Loading, please wait.</traduzione></div>
+                <a href="../storia/">
+                    <div class="tbutton">
+                        <button class="cta">
+                            <span><traduzione id="scopri_strut_text2">Loading, please wait.</traduzione></span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="tmappa">
+                <div class="Qmappa">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="footer">
+        <div class="row">
+            <div class="col">
+                <img src="images/footer/logo.png" class="logo1">
+                <p><traduzione id="footer_text">Loading, please wait.</traduzione></p>
+            </div>
+
+            <div class="col"> <!-- Sono Sissio. Devo mettere la traduzione pure qui? -->
+                <h3>Office <div class="underline0"></div>
+                </h3>
+                <p>STREET</p>
+                <p>CITY,Postal code </p>
+                <p>Nation</p>
+                <p class="email-id">// e-mail //</p>
+                <p>phone number</p>
+            </div>
+
+            <div class="col">
+                <h3>Links <div class="underline1"></div>
+                </h3>
+                <ul><!-- Sono Sissio. Non mi sembra concluso questo..? -->
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contats</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3>Newsletter <div class="underline2"></div>
+                </h3>
+                <form>
+                    <i class="fa-regular fa-envelope"></i><!-- Sono Sissio. Non mi sembra concluso questo..? -->
+                    <input type="email" placeholder="Enter your e-mail id" required>
+                </form>
+
+                <div class="socialmedia-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-Youtube"></i>
+
+                </div>
+            </div>
+        </div>
+        <hr><!-- Sono Sissio. Non mi sembra concluso questo..? -->
+        <p class="copyright"> 3G © 2024 - All rights Reserved </p>
+    </div>
+</body>
+</html>
