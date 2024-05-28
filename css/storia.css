@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: font2;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+}
+
+.tcasella:hover {
+    color: rgb(180, 137, 50);
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 4px;
+    border-color: rgb(180, 137, 50);
+    border-style: solid;
+}
+
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#timmagine img{
+    width: 100%;
+    filter: brightness(45%);
+}
+
+
+/* contenuto*/
+
+
+div.Qcontenitore {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 0.8%;
+}
+
+div.Qseccontenitore {
+    box-sizing: border-box;
+    width: 96%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+    margin: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Qmappa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.Qtitoloetesto {
+    margin: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 50%;
+
+}
+
+.tmappa{
+    width: 45%;
+    background-image: url(../images/1-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.Qtitolo {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(180, 137, 50);
+    margin-bottom: 2.5%;
+    font-weight: 700;
+}
+
+div.Qmuroditesto {
+    font-size: 22px;
+    color: rgb(42, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5%;
+    text-align: justify;
+    line-height: 1.3em
+}
+
+div.Qmappa {
+    width: 100%;
+    height: 100%;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: rgba(180, 137, 50, 0.738);
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #000000;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #ffffff;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(180, 137, 50, 0.855);
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+    stroke: rgba(180, 137, 50, 0.738);
+  }
+
+  .cta:hover span{
+    color: rgba(180, 137, 50, 0.738);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
+
+  .tbutton{
+    text-align: center;
+  }
+
