@@ -1,4 +1,11 @@
 //viene eseguito al caricamento della pagina
+const loc = window.location.pathname;
+const dir = loc.substring(0, loc.lastIndexOf('/'));
+let path = "config/lang.json";
+if (dir.endsWith("/storia/") || dir.endsWith("/storia") || dir.endsWith("/struttura/") || dir.endsWith("/struttura") || dir.endsWith("/opere/") || dir.endsWith("/opere")) {
+    path = dir + "/../config/lang.json";
+}
+
 const userLang = navigator.language;
 
 if (!document.cookie) { //se non esiste un cookie
@@ -17,10 +24,11 @@ if (!document.cookie) { //se non esiste un cookie
     }
 }
 
+
 // ***** //
 
 async function setLanguage(lang) {
-    const request = new Request("/config/lang.json");
+    const request = new Request(path);
     const response = await fetch(request);
     const text = await response.text();
 
