@@ -185,7 +185,7 @@ div.Qcontenitore {
     justify-content: center;
     background-color: rgb(255, 255, 255);
     padding-top: 2%;
-    margin-bottom: 2%;
+    padding-bottom: 2%;
 }
 
 div.Qseccontenitore {
@@ -206,6 +206,7 @@ div.Qseccontenitore {
     flex-direction: row;
 }
 
+
 div.Qtitoloetesto {
     margin: 5%;
     margin-top: 2.5%;
@@ -221,6 +222,47 @@ div.Qtitoloetesto {
     background-position: center;
 }
 
+.tmappa2{
+    width: 45%;
+    background-image: url(../images/facciata.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tmappa3{
+    width: 45%;
+    background-image: url(../images/porte.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tmappa4{
+    width: 45%;
+    background-image: url(../images/fiancate.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tmappa5{
+    width: 45%;
+    background-image: url(../images/basilica.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tmappa6{
+    width: 45%;
+    background-image: url(../images/interno.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tmappa7{
+    width: 45%;
+    background-image: url(../images/1-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 div.Qtitolo {
     width: 100%;
@@ -313,4 +355,3 @@ div.Qmappa {
   .tbutton{
     text-align: center;
   }
-
