@@ -1,10 +1,7 @@
 //viene eseguito al caricamento della pagina
 const loc = window.location.pathname;
 const dir = loc.substring(0, loc.lastIndexOf('/'));
-let path = "config/lang.json";
-if (dir.endsWith("/storia/") || dir.endsWith("/storia") || dir.endsWith("/struttura/") || dir.endsWith("/struttura") || dir.endsWith("/opere/") || dir.endsWith("/opere")) {
-    path = dir + "/../config/lang.json";
-}
+let path = "/config/lang.json";
 
 const userLang = navigator.language;
 
