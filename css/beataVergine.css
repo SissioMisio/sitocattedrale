@@ -1,0 +1,580 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: font2;
+    font-weight: 400;
+
+    
+}
+
+.tcasella:hover {
+    color: rgb(180, 137, 50);
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 4px;
+    border-color: rgb(180, 137, 50);
+    border-style: solid;
+}
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.zcontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zcontent {
+    text-align: center;
+}
+
+h2 {
+    z-index: 11;
+    font-family: "EB Garamond";
+    font-style: italic;
+    height: auto;
+    width: auto;
+    color: rgb(180, 137, 50);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    line-height: 35px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 50px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.zcontent h1 {
+    z-index: 8;
+    font-family: font1;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 87px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 71px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+
+
+.zbox {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 40px;
+    font-family: font2;
+    margin-left: 43%;
+}
+
+.zbox:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.zbox:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+
+.zbox:hover:before {
+    border-color: rgb(180, 137, 50);
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+
+.zbox:hover:after {
+    border-color: rgb(180, 137, 50);
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+}
+
+
+.zbutton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.zbackground-clip {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+/* contenuto*/
+
+#tcontenitorecaselle{
+    width: 100%;
+}
+
+.tbox{
+    width: calc(100%/3);
+    float: left;
+    height: auto;
+    overflow: hidden;   
+    border-bottom: 1px;
+    border-right: 1px;
+    border-color: #6e6e6e4a;
+    border-style: solid;
+    
+}
+
+.tbox a{
+    text-decoration: none;
+}
+
+.tcard-container {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    
+  }
+  
+  .tcard {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .tcard .tfront-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .tcard .tfront-content p {
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 1;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .tcard .tcontent1, .tcontent2, .tcontent3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: #e8e8e8;
+    padding: 20px;
+    line-height: 1.5;
+    pointer-events: none;
+    transform: translateY(-96%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .tcard .tcontent1{
+    background-color: rgb(180, 137, 50);
+    background: linear-gradient(to top, rgba(180, 137, 50, 0.934), rgba(180, 137, 50, 0.918)), url(../images/altare-isnello.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tcard .tcontent2{
+    background-color: #939393;
+    background: linear-gradient(to top, #939393e9, #939393e8), url(../images/altare-isnello.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tcard .tcontent3{
+    background-color: #1b1b1b;
+    background: linear-gradient(to top, #1b1b1be0, #1b1b1be1), url(../images/altare-isnello.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tcard .theading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .tcard:hover .tcontent1 {
+    transform: translateY(0);
+  }
+
+  .tcard:hover .tcontent2 {
+    transform: translateY(0);
+  }
+
+  .tcard:hover .tcontent3 {
+    transform: translateY(0);
+  }
+  
+  .tcard:hover .tfront-content {
+    transform: translateY(30%);
+  }
+  
+  .tcard:hover .tfront-content p {
+    opacity: 0;
+  }
+
+div.Qcontenitore {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+div.Qseccontenitore {
+    box-sizing: border-box;
+    width: 92%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+    margin: 4%;
+}
+
+div.Qmappa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.Qmappa img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+div.Qtitoloetesto {
+    margin: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 40%;
+
+}
+
+.tmappa{
+    width: 50%;
+}
+
+div.Qtitolo {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(180, 137, 50);
+    margin-bottom: 2.5%;
+    font-weight: 700;
+}
+
+div.Qmuroditesto {
+    font-size: 22px;
+    color: rgb(42, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5%;
+    text-align: left;
+}
+
+#h1opere{
+  font-size: 35px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: font1;
+  margin-top: -40px;
+}
+#h3opere{
+  text-align: center;
+  padding:60px;
+  font-family: inherit;
+  font-size: 20px;
+  font-family: font1;
+}
+
+#h4opere{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: font1;
+  padding:25px;
+}
+
+
+div.Qmappa {
+    width: 100%;
+    height: 100%;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: rgba(180, 137, 50, 0.738);
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #000000;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #ffffff;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(180, 137, 50, 0.855);
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+    stroke: rgba(180, 137, 50, 0.738);
+  }
+
+  .cta:hover span{
+    color: rgba(180, 137, 50, 0.738);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
+
+  .tbutton{
+    text-align: center;
+  }
+
+
+div.ContColonne{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+div.Qcontenitore {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 2%;
+  margin-bottom: 2%;
+  padding-right: 0.8%;
+}
+
+div.Qseccontenitore {
+  box-sizing: border-box;
+  width: 96%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #efefef;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Qmappa {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+div.Qtitoloetesto {
+  margin: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 50%;
+
+}
+
+.tmappa{
+    width: 45%;
+    background-image: url(/images/beataVergine.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.Qtitolo {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(180, 137, 50);
+    margin-bottom: 2.5%;
+    font-weight: 700;
+}
+
+div.Qmuroditesto {
+  font-size: 22px;
+  color: rgb(42, 42, 42);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2.5%;
+  text-align: justify;
+  line-height: 1.3em
+}
+
+div.Qmappa {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.descrizione{
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    padding-left: 20dvw;
+    padding-right: 20dvw;
+    background-color: white;
+    font-size: 22px;
+    color: rgb(42, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5%;
+    text-align: justify;
+    line-height: 1.3em
+    }
+    
+
+
+#h3opere{
+    text-align: center;
+    padding:100px;
+    font-family: inherit;
+    font-size: 55px;
+    font-family: font1;
+    
+}
+
+#h4opere{
+    text-align: center;
+    font-family: font1;
+    padding-bottom:70px;
+    font-size: 20px;
+    color: rgb(74, 49, 0);
+    
+}
+

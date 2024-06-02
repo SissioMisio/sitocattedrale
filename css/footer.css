@@ -1,5 +1,6 @@
 /*Harrach footer*/
 
+
 #footer{
     font-family:font4;
     width: 100%;
@@ -55,11 +56,10 @@ ul li{
 .col ul li a{
     text-decoration: none;
     color: #000000;
-    transition: all 0.3s;
 }
 
 .col ul li a:hover{
-    color: #000000;
+    color:rgb(180, 137, 50);
     text-decoration: underline;
 }
 
@@ -85,49 +85,7 @@ form input{
     outline: none;
 }
 
-.socialmedia-icons .fa-brands{ 
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    color: #000;
-    background: #fff;
-    margin-right: 15px;
-}
 
-.socialmedia-icons .fa-facebook:hover{
-    background-color: #3300ff;
-    cursor: pointer;
-    transform: scale(1.10);
-    transition: all 0.5s ease;
-    color: white;
-}
-
-.socialmedia-icons .fa-youtube:hover{
-    background-color: #ff0000;
-    cursor: pointer;
-    transform: scale(1.10);
-    transition: all 0.5s ease;
-    color: white;
-}
-
-.socialmedia-icons .fa-instagram:hover{
-    cursor: pointer;
-    transform: scale(1.10);
-    transition: all 0.5s ease;
-    background: linear-gradient(to right, #cc00ff, #ff4000);
-    color: white;
-}
-
-.socialmedia-icons .fa-x-twitter:hover{
-    background-color: #000000;
-    cursor: pointer;
-    transform: scale(1.10);
-    transition: all 0.5s ease;
-    color: white;
-}
 
 hr{
     width: 90%;
