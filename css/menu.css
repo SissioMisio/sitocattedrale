@@ -12,6 +12,7 @@
     width: auto;
     height: auto;
     position: absolute;
+    cursor: pointer;
 }
 
 #tlogo img {
@@ -102,6 +103,7 @@ grassettoMenu {
 
 .tdropbtn:hover .tlink{
     color: rgb(180, 137, 50);
+    cursor: pointer;
 }
 
 .tdropbtn {
