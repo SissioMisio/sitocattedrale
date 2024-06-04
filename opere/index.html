@@ -2,14 +2,19 @@
 <html>
 
 <head>
-    <traduzione id="titolo_opere_text"><title></title></traduzione>
+    <traduzione id="titolo_opere_text">
+        <title></title>
+    </traduzione>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/opere.css" id="cssPrincipale" type="text/css">
     <!--Id cssPrincipale in modo che posso riferirmi a questo nel JavaScript-->
     <link rel="stylesheet" href="../css/fonts.css" id="fonts" type="text/css">
     <link rel="stylesheet" href="../css/menu.css" id="cssMenu" type="text/css">
+    <link rel="stylesheet" href="../css/preCambioMenu.css" id="cssCambioMenu" type="text/css">
+    <!--Id cssMenu in modo che posso riferirmi a questo nel JavaScript-->
     <link rel="stylesheet" href="../css/carte.css" id="cssCarte" type="text/css">
+    <link rel="stylesheet" href="../css/carte2.css" id="cssCarte2" type="text/css">
     <link rel="stylesheet" href="../css/customScrollbar.css" id="customScrollbar" type="text/css">
     <link rel="stylesheet" href="../css/footer.css" id="cssFooter" type="text/css">
 
@@ -21,20 +26,26 @@
     <script src="https://kit.fontawesome.com/ec6d9d37ac.js"></script>
     <!--Includo lo script di JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Includo lo script che permette di cambiare il css quando scendo nella pagina-->
+    <script src="../js/menujs.js"></script>
     <!--js carte-->
     <script src="../js/carte.js" defer></script>
+    <script src="../js/carte2.js" defer></script>
     <!--js cambio lingua-->
     <script src="../js/utils.js" defer></script>
 </head>
 
 <body>
     <!--Menù-->
-    <div id="tstrisciamenu" style="background-color: rgba(0, 0, 0, 0.822)">
+    <div id="tstrisciamenu">
         <div id="tlogo">
-            <a href="../">
+            <a onClick="goTo('home')">
                 <img src="../images/menu/logo.png">
-                <div class="ttitologo"><traduzione id="cattedraledi_text"></traduzione><br>
-                    <grassettoMenu><traduzione id="sangiorgio_text"></traduzione></grassettoMenu>
+                <div class="ttitologo">
+                    <traduzione id="cattedraledi_text"></traduzione><br>
+                    <grassettoMenu>
+                        <traduzione id="sangiorgio_text"></traduzione>
+                    </grassettoMenu>
                 </div>
             </a>
         </div>
@@ -42,32 +53,47 @@
         <div class="tmenu">
             <ul>
                 <li>
-                    <button><a href="../"><traduzione id="home_text"></traduzione></a></button>
+                    <button><a onClick="goTo('home')"><traduzione id="home_text"></traduzione></a></button>
                 </li>
                 <li>
-                    <button><a href="../storia/"><traduzione id="storia_text"></traduzione></a></button>
+                    <button><a onClick="goTo('storia')"><traduzione id="storia_text"></traduzione></a></button>
                 </li>
                 <li class="tdropdown">
                     <div class="tdropbtn"><!-- inserire link esterno-->
-                        <a class="tlink" href="../struttura/"><traduzione id="struttura_text"></traduzione> <simboliMenu>T</simboliMenu></a>
+                        <a class="tlink" onClick="goTo('struttura')"><traduzione id="struttura_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                         <div class="tdropdown-content">
-                            <a href="#"><traduzione id="titolo1_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo2_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo3_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo4_text"></traduzione></a>
+                            <a href="#">
+                                <traduzione id="titolo1_text"></traduzione>
+                            </a>
+                            <a href="#">
+                                <traduzione id="titolo2_text"></traduzione>
+                            </a>
+                            <a href="#">
+                                <traduzione id="titolo3_text"></traduzione>
+                            </a>
+                            <a href="#">
+                                <traduzione id="titolo4_text"></traduzione>
+                            </a>
                         </div>
                     </div>
                 </li>
                 <li class="tsegnaposto">
                     <div class="tdropdown">
                         <div class="tdropbtn">
-                            <a class="tlink" href="../opere/" style="color:rgb(180, 137, 50);"><traduzione id="opere_text"></traduzione> <simboliMenu>T
-                                </simboliMenu></a>
+                            <a class="tlink" onClick="goTo('opere')" style="color:rgb(180, 137, 50);"><traduzione id="opere_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                             <div class="tdropdown-content">
-                                <a href="#"><traduzione id="titolo5_text"></traduzione></a>
-                                <a href="#"><traduzione id="titolo6_text"></traduzione></a>
-                                <a href="#"><traduzione id="titolo7_text"></traduzione></a>
-                                <a href="#"><traduzione id="titolo8_text"></traduzione></a>
+                                <a href="#">
+                                    <traduzione id="titolo5_text"></traduzione>
+                                </a>
+                                <a href="#">
+                                    <traduzione id="titolo6_text"></traduzione>
+                                </a>
+                                <a href="#">
+                                    <traduzione id="titolo7_text"></traduzione>
+                                </a>
+                                <a href="#">
+                                    <traduzione id="titolo8_text"></traduzione>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -77,9 +103,11 @@
         <div id="tlingua">
             <div class="tldropdown">
                 <div class="tldropbtn">
-                    <cambioLingua id="main_lingua"></cambioLingua> <simboliMenu>T</simboliMenu>
+                    <cambioLingua id="main_lingua"></cambioLingua>
+                    <simboliMenu>T</simboliMenu>
                     <div class="tldropdown-content">
-                        <cambioLingua id="dropdown_lingua"><a onclick="setLanguage('en')"></a></cambioLingua><!-- cambio lingua-->
+                        <cambioLingua id="dropdown_lingua"><a onclick="setLanguage('en')"></a></cambioLingua>
+                        <!-- cambio lingua-->
                     </div>
                 </div>
             </div>
@@ -87,98 +115,213 @@
     </div>
 
 
-<!--zheader-->
-<div class="Qcontenitore">
-    <div class="Qseccontenitore">
-        <div class="Qtitoloetesto">
-            <div class="Qtitolo"><h1 id="h1opere"></h1>
-                <h3 id="h3opere"><traduzione id="santantpad_text"></traduzione></h3>
-                <h4 id="h4opere"><traduzione id="anconamarmorea_text"></traduzione><br>
-                </h4>
+    <!--Video-->
+    <div class="zcontainer">
+        <video src="../videos/INTERNO-lq.mp4" autoplay muted loop class="zbackground-clip"></video>
+        <div class="zcontent">
+            <h2>Un viaggio tra</h2>
+            <h1>I TESORI DELLA CATTEDRALE</h1>
+        </div>
+    </div>
+
+    <!--Contenuto-->
+    <div class="Qcontenitore">
+        <div class="Qseccontenitore">
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo">
+                    Altare di Sant'Antonio da Padova
+                </div>
+                <div class="Qmuroditesto">
+                    L'ancona marmorea del 1725, con decorazioni di Angelo de' Putti, ospita un dipinto del 1565 di
+                    Sebastiano Filippi raffigurante la Vergine, Santa Barbara e Santa Caterina. Le nicchie laterali
+                    hanno statue di Sant'Antonio da Padova e San Michele Arcangelo di Andrea Ferreri. L'ancona e la pala
+                    d'altare sono state spostate nel XIX secolo dalla chiesa di Santa Caterina Martire e il dipinto di
+                    Filippi mostra influenze di Raffaello e spiritualità monacale. Le statue di San Crispino e San
+                    Crispiniano, sotto l'arcata, sono di Luigi Turchi e furono donate dall'Arte dei Calzolari.
+                </div>
+                <a href="../storia/">
+                    <div class="tbutton">
+                        <button class="cta">
+                            <span>
+                                <traduzione id="scopri_strut_text"></traduzione>
+                            </span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </a>
             </div>
-            <div class="Qmuroditesto">
-                
+            <div class="tmappa">
+                <div class="Qmappa">
+                </div>
             </div>
         </div>
-        <div class="tmappa">
-            <div class="Qmappa">
-            
+
+        <div class="Qseccontenitore">
+            <div class="tmappa2">
+                <div class="Qmappa">
+                </div>
+            </div>
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo">Catino Absidale</div>
+                <div class="Qmuroditesto">
+                    L'abside decorata con stucchi, affreschi e statue, realizzate da vari artisti
+                    tra il XVI e il XVIII secolo. L'affresco del Giudizio Universale di Sebastiano Filippi, ispirato a
+                    Michelangelo, domina l'abside con una scena drammatica. L'altare di San Maurelio, patrono della
+                    città, presenta una pala d'altare del 1735 di Felice Torelli raffigurante la sua decapitazione, e
+                    statue di Pietro Turchi. Le pareti mostrano affreschi di Virginio Monti che rappresentano le
+                    parrocchie della città. La statua di San Giorgio, iniziata da Nicolò Baroncelli e completata dal
+                    figlio e dal cognato, fa parte dell'altare del Crocifisso.
+                </div>
+                <a href="../storia/">
+                    <div class="tbutton">
+                        <button class="cta">
+                            <span>
+                                <traduzione id="scopri_strut_text2"></traduzione>
+                            </span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="Qseccontenitore">
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo">
+                    Statua della Beata Vergine Della Colonna
+                </div>
+                <div class="Qmuroditesto">
+                    La statua della Beata Vergine della Colonna a Ferrara, venerata dal XIV secolo, è legata a un
+                    ritrovamento miracoloso durante un'alluvione nel 1232. È un simbolo di devozione mariana e attira
+                    fedeli e pellegrini. La cappella riedificata ospita statue di Sant'Anna, San Gioacchino, San Fedele
+                    di Sigmaringa e Sant'Andrea Avellino. L'altare contiene un'immagine della Madonna col Bambino del
+                    XIII secolo, che ha trovato la sua posizione definitiva dopo la ristrutturazione del Settecento. La
+                    statua è sacra per i fedeli cattolici, simbolo di purezza,
+                    grazia e maternità divina, e un punto focale di preghiera e devozione.
+
+                </div>
+                <a href="../storia/">
+                    <div class="tbutton">
+                        <button class="cta">
+                            <span>
+                                <traduzione id="scopri_strut_text"></traduzione>
+                            </span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="tmappa3">
+                <div class="Qmappa">
+                </div>
+            </div>
+        </div>
+
+        <div class="Qseccontenitore">
+            <div class="tmappa5">
+                <div class="Qmappa">
+                </div>
+            </div>
+            <div class="Qtitoloetesto">
+                <div class="Qtitolo">Altare di San Giorgio</div>
+                <div class="Qmuroditesto">
+                    San Giorgio, patrono di Ferrara, è celebrato per il suo coraggio e devozione, famoso per la leggenda
+                    in cui sconfigge un drago. Il suo altare nella Cattedrale di Ferrara, speculare a quello di San
+                    Maurelio, è decorato con marmi rossi e gialli e sculture di Andrea Ferreri. La pala d'altare, che
+                    raffigura la decapitazione di San Giorgio, è opera di Ercole Graziani e fu commissionata nel 1735.
+                    Le nicchie laterali contengono statue di Sant'Ivo di Bretagna e San Dionigi Areopagita, realizzate
+                    da Lorenzo Sarti nel 1745. Un dipinto laterale raffigura lo Sposalizio della Vergine, di Nicolò
+                    Roselli, e un altro la Madonna con le mani giunte, attribuita al Garofalo e restaurata di recente.
+                    Le pareti mostrano affreschi di Virginio Monti con i santi titolari di quattro parrocchie della
+                    città.
+                </div>
+                <a href="../storia/">
+                    <div class="tbutton">
+                        <button class="cta">
+                            <span>
+                                <traduzione id="scopri_strut_text2"></traduzione>
+                            </span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
-</div>
 
-
-<div id="corpo">
-    <div class="descrizione"><traduzione id="descrition_text"></traduzione></div>
-</div>
-
-
-    <!-- carte -->
     <div id="tcarte">
-        <div class="titolocarte"></div>
+        <div class="titolocarte">I Tesori Della Cattedrale</div>
         <carte>
-            <div class="wrapper">
-                <i id="left" class="fa-solid fa-angle-left"></i>
-                <ul class="carousel">
-                    <li class="card">
+            <div class="wrapper2">
+                <i id="left2" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel2">
+                    <li class="card2">
                         <img draggable="false" src="../images/altare-isnello.jpg">
                         <div class="titoloimg"><traduzione id="altare21_text"></traduzione></div>
                     </li>
-                    <li class="card">
+                    <li class="card2">
                         <img draggable="false" src="../images/altare-isnello.jpg">
-                        <div class="titoloimg"><traduzione id="altare22_text"></traduzione></div>
+                        <div class="titoloimg"><traduzione id="altare21_text"></traduzione></div>
                     </li>
-                    <li class="card">
+                    <li class="card2">
                         <img draggable="false" src="../images/altare-isnello.jpg">
-                        <div class="titoloimg"><traduzione id="altare23_text"></traduzione></div>
+                        <div class="titoloimg"><traduzione id="altare21_text"></traduzione></div>
                     </li>
-                    <li class="card">
+                    <li class="card2">
                         <img draggable="false" src="../images/altare-isnello.jpg">
-                        <div class="titoloimg"><traduzione id="altare24_text"></traduzione></div>
+                        <div class="titoloimg"><traduzione id="altare21_text"></traduzione></div>
                     </li>
-                    <li class="card">
+                    <li class="card2">
                         <img draggable="false" src="../images/altare-isnello.jpg">
-                        <div class="titoloimg"><traduzione id="altare25_text"></traduzione></div>
+                        <div class="titoloimg"><traduzione id="altare21_text"></traduzione></div>
                     </li>
-                    <li class="card">
+                    <li class="card2">
                         <img draggable="false" src="../images/altare-isnello.jpg">
-                        <div class="titoloimg"><traduzione id="altare26_text"></traduzione></div>
+                        <div class="titoloimg"><traduzione id="altare21_text"></traduzione></div>
                     </li>
                 </ul>
-                <i id="right" class="fa-solid fa-angle-right"></i>
+                <i id="right2" class="fa-solid fa-angle-right"></i>
             </div>
+
         </carte>
     </div>
     <!--Footer-->
     <div id="footer">
         <div class="row">
             <div class="col">
-                <a href="">
-                <img src="images/footer/logo.png" class="logo1"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero ad, molestiae sequi,
-                    quibusdam nostrum iure vitae pariatur autem error, odit nulla necessitatibus deleniti sapiente
-                    accusantium. Necessitatibus harum voluptatum sit.</p>
+                <img src="../images/footer/logo.png" class="logo1">
+                <p>
+                    <traduzione id="footer_text"></traduzione>
+                </p>
             </div>
 
-            <div class="col">
-                <h3>Contatti <div class="underline0"></div>
+            <div class="col"> <!-- Sono Sissio. Devo mettere la traduzione pure qui? -->
+                <h3>Office <div class="underline0"></div>
                 </h3>
-                <p> Via Canonica 12</p>
-                <p>Ferrara,44121 </p>
-                <p>Italia</p>
-                <p class="email-id">
-                  capitolo.cattedrale@diocesiferrara.it
-                  restauri@cattedralediferrara.it</p>
+                <p>STREET</p>
+                <p>CITY,Postal code </p>
+                <p>Nation</p>
+                <p class="email-id">// e-mail //</p>
                 <p>phone number</p>
             </div>
 
             <div class="col">
                 <h3>Links <div class="underline1"></div>
                 </h3>
-                <ul>
+                <ul><!-- Sono Sissio. Non mi sembra concluso questo..? -->
                     <li><a href="">Home</a></li>
-                    <li><a href="">Servizi</a></li>
+                    <li><a href="">Services</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Features</a></li>
                     <li><a href="">Contats</a></li>
@@ -189,15 +332,20 @@
                 <h3>Newsletter <div class="underline2"></div>
                 </h3>
                 <form>
-                    <i class="fa-regular fa-envelope"></i>
-                    <input type="email" placeholder="Inserisci la tua e-mail" required>
+                    <i class="fa-regular fa-envelope"></i><!-- Sono Sissio. Non mi sembra concluso questo..? -->
+                    <input type="email" placeholder="Enter your e-mail id" required>
                 </form>
 
-                
+                <div class="socialmedia-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-Youtube"></i>
+
+                </div>
             </div>
         </div>
-        <hr>
-        <p class="copyright"> 3G-© Copyright 2024 | Tutti i diritti riservati |  Basilica Cattedrale di Ferrara</p>
+        <hr><!-- Sono Sissio. Non mi sembra concluso questo..? -->
+        <p class="copyright"> 3G © 2024 - All rights Reserved </p>
     </div>
 </body>
 

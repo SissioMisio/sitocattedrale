@@ -38,7 +38,7 @@
     <!--Menù-->
     <div id="tstrisciamenu">
         <div id="tlogo">
-            <a href="../">
+            <a onClick="goTo('home')">
                 <img src="../images/menu/logo.png">
                 <div class="ttitologo"><traduzione id="cattedraledi_text"></traduzione><br>
                     <grassettoMenu><traduzione id="sangiorgio_text"></traduzione></grassettoMenu>
@@ -49,15 +49,15 @@
         <div class="tmenu">
             <ul>
                 <li>
-                    <button><a href="../"><traduzione id="home_text"></traduzione></a></button>
+                    <button><a onClick="goTo('home')"><traduzione id="home_text"></traduzione></a></button>
                 </li>
                 <li>
-                    <button><a href="../storia/"><traduzione id="storia_text"></traduzione></a></button>
+                    <button><a onClick="goTo('storia')"><traduzione id="storia_text"></traduzione></a></button>
                 </li>
                 <li class="tsegnaposto">
                     <div class="tdropdown">
                         <div class="tdropbtn">
-                            <a class="tlink" href="." style="color:rgb(180, 137, 50);"><traduzione id="struttura_text"></traduzione> <simboliMenu>T</simboliMenu></a>
+                            <a class="tlink" onClick="goTo('struttura')" style="color:rgb(180, 137, 50);"><traduzione id="struttura_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                             <div class="tdropdown-content">
                                 <a href="#"><traduzione id="titolo1_text"></traduzione></a>
                                 <a href="#"><traduzione id="titolo2_text"></traduzione></a>
@@ -69,7 +69,7 @@
                 </li>
                 <li class="tdropdown">
                     <div class="tdropbtn">
-                        <a class="tlink" href="../opere/"><traduzione id="opere_text"></traduzione> <simboliMenu>T</simboliMenu></a>
+                        <a class="tlink" onClick="goTo('opere')"><traduzione id="opere_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                         <div class="tdropdown-content">
                             <a href="#"><traduzione id="titolo5_text"></traduzione></a>
                             <a href="#"><traduzione id="titolo6_text"></traduzione></a>
