@@ -1,20 +1,20 @@
 {
   "titolo_text": {
     "it": "HOME",
-    "en": "INGLESEEEE"
+    "en": "HOME"
   },
 
   "home_text": {
     "it": "Home",
-    "en": "ingleselol"
+    "en": "Home"
   },
   "storia_text": {
     "it": "Storia",
-    "en": "ingleselol"
+    "en": "History"
   },
   "struttura_text": {
     "it": "Struttura",
-    "en": "ingleselol"
+    "en": "Structure"
   },
   "titolo1_text": {
     "it": "titolotitolotitolo",
@@ -34,7 +34,7 @@
   },
   "opere_text": {
     "it": "Opere",
-    "en": "ingleselol"
+    "en": "Artworks"
   },
   "titolo5_text": {
     "it": "titolotitolotitolo",
@@ -54,127 +54,127 @@
   },
   "cattedraledi_text": {
     "it": "Cattedrale di",
-    "en": "inglese"
+    "en": "St. Giorgio's"
   },
   "sangiorgio_text": {
     "it": "San Giorgio",
-    "en": "palle"
+    "en": "Cathedral"
   },
   "benvenutinella_text": {
     "it": "Benvenuti nella",
-    "en": "ingleselol"
+    "en": "Welcome to"
   },
   "catsangior_text": {
     "it": "CATTEDRALE DI SAN GIORGIO",
-    "en": "ingleselol"
+    "en": "ST. GIORGIO'S CATHEDRAL"
   },
   "visitavirtuale_text": {
     "it": "Visita Virtuale",
-    "en": "ingleselol"
+    "en": "Virtual Visit"
   },
   "visitavirtuale2_text": {
     "it": "Visita Virtuale",
-    "en": "ingleselol"
+    "en": "Virtual Visit"
   },
   "espimmers_text": {
     "it": "Vivi la Cattedrale di Ferrara in questa esperienza immersiva.",
-    "en": "ingleselol"
+    "en": "Experience Ferrara's Cathedral in this immersive journey."
   },
   "radici_text": {
     "it": "Radici Antiche",
-    "en": "ingleselol"
+    "en": "Origins"
   },
   "radici2_text": {
     "it": "Radici Antiche",
-    "en": "ingleselol"
+    "en": "Origins"
   },
   "origini_text": {
     "it": "Scopri le origini della cattedrale e le sue trasformazioni durante i secoli.",
-    "en": "ingleselol"
+    "en": "Discover the Cathedral's roots and its transformations throughout the centuries."
   },
   "tesori_text": {
     "it": "Tesori Nascosti",
-    "en": "ingleselol"
+    "en": "Hidden Treasures"
   },
   "tesori2_text": {
     "it": "Tesori Nascosti",
-    "en": "ingleselol"
+    "en": "Hidden Treasure"
   },
   "esploraopere_text": {
     "it": "Esplora le opere d'arte e i preziosi artefatti",
-    "en": "ingleselol"
+    "en": "Discover the artworks and the artifacts"
   },
   "introduzione_text": {
     "it": "Introduzione cattedrale",
-    "en": "ingleselol"
+    "en": "Cathedral introduction"
   },
   "muroditesto_text": {
     "it": "Scopri la maestosa Cattedrale di San Giorgio, un gioiello architettonico che racconta secoli di storia, fede e arte. Situata nel cuore della città, la cattedrale incanta i visitatori con la sua imponente facciata, le sue maestose torri e gli affreschi che decorano le sue pareti. Fondata nel XI secolo e ampliata nel corso dei secoli, questa meraviglia gotica testimonia l'importanza spirituale e culturale della città di Ferrara nel corso dei secoli.",
-    "en": "ingleselol"
+    "en": "Discover the majestic Cathedral of San Giorgio, an architectural jewel that tells centuries of history, faith and art. Located in the heart of the city, the cathedral enchants visitors with its imposing facade, its majestic towers and the frescoes that decorate its walls. Founded in the 11th century and enlarged over the centuries, this Gothic wonder testifies to the spiritual and cultural importance of the city of Ferrara over the centuries."
   },
   "scopripiu_text": {
     "it": "Scopri di più",
-    "en": "ingleselol"
+    "en": "Learn more"
   },
   "titolocarte_text": {
     "it": "Titolo Parte Esterna",
-    "en": "ingleselol"
+    "en": "Title External Part"
   },
   "altare1_text": {
-    "it": "Altare Altare Nome STRUTTURA",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare2_text": {
-    "it": "Altare Altare Nome STRUTTURA",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare3_text": {
-    "it": "Altare Altare Nome STRUTTURA",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare4_text": {
-    "it": "Altare Altare Nome STRUTTURA",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare5_text": {
-    "it": "Altare Altare Nome STRUTTURA",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare6_text": {
-    "it": "Altare Altare Nome STRUTTURA",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "titolocarte2_text": {
     "it": "Titolo Parte Interna",
-    "en": "ingleselol"
+    "en": "Title internal part"
   },
   "altare21_text": {
-    "it": "Altare Altare Nome OPERE",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare22_text": {
-    "it": "Altare Altare Nome OPERE",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare23_text": {
-    "it": "Altare Altare Nome OPERE",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare24_text": {
-    "it": "Altare Altare Nome OPERE",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare25_text": {
-    "it": "Altare Altare Nome OPERE",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "altare26_text": {
-    "it": "Altare Altare Nome OPERE",
-    "en": "ingleselol"
+    "it": "Altare Altare Nome Altare",
+    "en": "Altar Altar name Altar"
   },
   "footer_text": {
     "it": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero ad, molestiae sequi, quibusdam nostrum iure vitae pariatur autem error, odit nulla necessitatibus deleniti sapiente accusantium. Necessitatibus harum voluptatum sit.",
-    "en": "ingleselol"
+    "en": "skibid"
   },
 
 
@@ -183,7 +183,7 @@
 
   "titolo_opere_text": {
     "it": "OPERE",
-    "en": "INGLESEEEE"
+    "en": "ARTWORKS"
   },
 
   "testogrande_text": {
@@ -203,8 +203,8 @@
     "en": "ioquando inglese"
   },
   "santantpad_text": {
-    "it": "Altare di Sant'Antonio da Padova",
-    "en": "ioquando inglese"
+    "it": "ALTARE DI SANT'ANTONIO DA PADOVA",
+    "en": "ALTAR OF SAINT ANTHONY OF PADUA"
   },
   "anconamarmorea_text": {
     "it": "L'ancona marmorea del 1725, con decorazioni di Angelo de' Putti, ospita un dipinto del 1565 di Sebastiano Filippi raffigurante la Vergine, Santa Barbara e Santa Caterina. Le nicchie laterali hanno statue di Sant'Antonio da Padova e San Michele Arcangelo di Andrea Ferreri. L'ancona e la pala d'altare sono state spostate nel XIX secolo dalla chiesa di Santa Caterina Martire e il dipinto di Filippi mostra influenze di Raffaello e spiritualità monacale. Le statue di San Crispino e San Crispiniano, sotto l'arcata, sono di Luigi Turchi e furono donate dall'Arte dei Calzolari.",
@@ -242,85 +242,85 @@
 
   "titolo_altsg_text": {
     "it": "altare san giorgio",
-    "en": "INGLESEEEE"
+    "en": "St. Giorgio's altar"
   },
   "altaresg_text": {
     "it": "ALTARE DI S.Giorgio",
-    "en": "ioquando inglese"
+    "en": "ST. GIORGIO'S ALTAR"
   },
   "altaresg_2_text": {
     "it": "San Giorgio, il santo patrono di Ferrara, una figura venerata nella tradizione cristiana per il suo coraggio e la sua devozione <br>",
-    "en": "ioquando ingleeeeeeeeeee"
+    "en": "Saint George, the patron saint of Ferrara, a revered figure in christian tradition for his courage and devotion<br>"
   },
   "altaresg_dsc_text": {
     "it": "San Giorgio è il santo patrono di Ferrara ed è una figura venerata nella tradizione cristiana per il suo coraggio e la sua devozione. È noto soprattutto per la leggenda in cui sconfisse  un drago per salvare una principessa, un atto che simboleggia la vittoria del bene sul male. A Ferrara, dove San Giorgio viene celebrato particolarmente, la sua figura è spesso associata a immagini e opere d'arte religiose come l’altare della cattedrale. L'altare di San Giorgio, posto nel braccio della crociera mediana, speculare a quello di San Maurelio nella Cattedrale di Ferrara, è in marmi rossi e gialli, abbellito da Angeli, Putti e Serafini scolpiti da Andrea Ferreri, sempre negli anni 1720-28. La grande pala raffigurante la Decapitazione di san Giorgio è opera del bolognese Ercole  Graziani, che la realizzò nel 1735 per incarico del cardinale Ruffo. Il giovane san Giorgio, rivestito dell'armatura, accentra tutto il dinamismo della composizione, la cui spazialità teatrale è chiaroscurata da una luminosità soprannaturale; in primo piano il corpo disteso senza vita di sant'Alessandra, martirizzata insieme a san Giorgio sotto Diocleziano. Nelle nicchie ai lati dell'altare, le statue in stucco di Sant'lvo di Bretagna e di San Dionigi Areopagita sono state commissionate nel 1745 dal Collegio dei Dottori utriusque juris (in diritto civile e in diritto canonico) al bolognese Lorenzo Sarti Il. Il dipinto laterale all'altare a destra proviene dalla demolita chiesa dell'Ospedale di Sant'Anna e in precedenza era stato collocato nella cappella del Santissimo Sacramento. Questo Sposalizio della Vergine, di rigido e convenzionale impianto figurativo è stato realizzato intorno al 1570 da Nicolò Roselli.A sinistra invece si vede la tavola con la figura della Madonna con le mani giunte levate al cielo, popolarmente detta Madonna Liberatrice, attribuita dalla storiografia locale al Garofalo, che l'avrebbe dipinta nel 1532 quale ex-voto per la cessazione della peste che dal 1528 gravava sulla città.La tavola, nel tempo molto deteriorata, è stata recentemente restaurata e restituita al luogo sacro nel 2012. Sulle pareti laterali anche di questa parte della crociera mediana, come già si è visto per l'altare di san Maurelio, della decorazione ad affresco ideata da Alessandro Mantovani ed eseguita da Virginio Monti nel 1885, appaiono notevoli i finti stendardi con i santi titolari di quattro parrocchie della città: San Matteo Apostolo, Santo Stefano Protomartire, San Michele Arcangelo e San Paolo.",
-    "en": "ioquando inglese"
+    "en": "Saint George is the patron saint of Ferrara and is a figure venerated in the Christian tradition for his courage and devotion. He is best known for the legend in which he defeated a dragon to save a princess, an act symbolizing the victory of good over evil. In Ferrara, where Saint George is particularly celebrated, his figure is often associated with religious images and works of art such as the cathedral altar. The altar of San Giorgio, located in the arm of the median cross, mirroring that of San Maurelio in the Cathedral of Ferrara, is in red and yellow marble, embellished with Angels, Putti and Seraphim sculpted by Andrea Ferreri, again in the years 1720-28. The large altarpiece depicting the Beheading of Saint George is the work of Ercole Graziani from Bologna, who created it in 1735 on behalf of Cardinal Ruffo. The young Saint George, clad in armour, centralizes all the dynamism of the composition, whose theatrical spatiality is chiaroscuro by a supernatural luminosity; in the foreground the lifeless body of saint Alexandra, martyred together with saint George under Diocletian. In the niches on the sides of the altar, the stucco statues of Saint Elvo of Brittany and Saint Denis Areopagita were commissioned in 1745 by the College of Doctors utriusque juris (in civil law and in canon law) to Lorenzo Sarti Il from Bologna. The lateral painting on the altar on the right comes from the demolished church of the Hospital of Sant'Anna and was previously placed in the chapel of the Blessed Sacrament. This Marriage of the Virgin, with a rigid and conventional figurative structure, was created around 1570 by Nicolò Roselli. On the left you can see the panel with the figure of the Madonna with her clasped hands raised to the sky, popularly called Madonna Liberatrice, attributed by local historiography to Garofalo, who painted it in 1532 as an ex-voto for the cessation of the plague which had been weighing on the city since 1528. The panel, which had deteriorated greatly over time, was recently restored and returned to the sacred place in 2012. On the side walls also of this part of the median cross, as has already been seen for the altar of San Maurelio, of the fresco decoration conceived by Alessandro Mantovani and executed by Virginio Monti in 1885, the fake banners with the titular saints of four parishes of the city appear notable : Saint Matthew the Apostle, Saint Stephen the Protomartyr, Saint Michael the Archangel and Saint Paul."
   },
 
   "titolo_beaver_text": {
     "it": "beata vergine",
-    "en": "INGLESEEEE"
+    "en": "blessed virgin"
   },
   "beatavergine_text": {
     "it": "La statua della Beata Vergine della Colonna",
-    "en": "ioquando inglese"
+    "en": "The statue of the Blessed Virgin of the Column"
   },
   "beatavergine_2_text": {
     "it": "La sua presenza nella cattedrale attira fedeli e pellegrini da secoli, diventando un simbolo di devozione mariana nella città. <br>",
-    "en": "ioquando inglese"
+    "en": "Its presence in the cathedral attracts faithful and pilgrims for centuries, becoming a symbol of Marian devotion in the city."
   },
   "beaver_dsc_text": {
     "it": "La statua della Beata Vergine della Colonna a Ferrara è venerata sin dal XIV secolo. Secondo la leggenda, fu miracolosamente ritrovata in una colonna durante un'alluvione nel 1232. La sua presenza nella cattedrale attira fedeli e pellegrini da secoli, diventando un simbolo di devozione mariana nella città. Riedificazione della cappella: Le statue in marmo di Sant'Anna e San Gioacchino, di Andrea Ferreri, si trovano nelle nicchie ai lati dell'altare. Sotto l'arcata mediana si può ammirare a destra la statua di San Fedele di Sigmaringa (1744-1746), protettore dei Frati Cappuccini, di Pietro Turchi e a sinistra la statua di Sant'Andrea Avellino di Giuseppe Ferreri.L'altare della Beata Vergine della Colonna contiene l'immagine della Madonna col Bambino di Gelasio di Niccolò della Masnada, della metà del XIII secolo. Questo dipinto, che risale all'impianto originario della Cattedrale, è stato spostato più volte,solo dopo la ristrutturazione settecentesca ha trovato la sua sede definitiva. La statua della Beata Vergine della Colonna nella Cattedrale di Ferrara è considerata sacra e venerata dai fedeli cattolici. Rappresenta la figura della Madonna, simbolo di purezza, grazia e maternità divina. I devoti la pregano per intercessione e protezione spirituale, rivolgendo le loro suppliche e ringraziamenti alla Madre di Dio. La statua è un punto focale di devozione e preghiera per i credenti, che vi si rivolgono con fiducia e devozione.",
-    "en": "ioquando inglese"
+    "en": "The statue of the Blessed Virgin of the Column in Ferrara has been venerated since the 14th century. According to legend, it was miraculously found in a column during a flood in 1232. Its presence in the cathedral has attracted faithful and pilgrims for centuries, becoming a symbol of Marian devotion in the city. Rebuilding of the chapel: The marble statues of Saint Anne and Saint Joachim, by Andrea Ferreri, are located in the niches on either side of the altar. Under the central arch, one can admire on the right the statue of Saint Fidelis of Sigmaringen (1744-1746), protector of the Capuchin Friars, by Pietro Turchi, and on the left the statue of Saint Andrew Avellino by Giuseppe Ferreri. The altar of the Blessed Virgin of the Column contains the image of the Madonna with Child by Gelasio di Niccolò della Masnada, from the mid-13th century. This painting, dating back to the original layout of the Cathedral, has been moved several times; only after the 18th-century renovation did it find its definitive location. The statue of the Blessed Virgin of the Column in the Cathedral of Ferrara is considered sacred and venerated by Catholic faithful. It represents the figure of the Madonna, a symbol of purity, grace, and divine motherhood. Devotees pray to her for intercession and spiritual protection, directing their pleas and thanksgivings to the Mother of God. The statue is a focal point of devotion and prayer for believers, who turn to it with confidence and reverence."
   },
 
   "titolo_cappella_text": {
     "it": "cappella",
-    "en": "INGLESEEEE"
+    "en": "chapel"
   },
   "cappella_text": {
     "it": "CAPPELLA DEL BATTISTERO",
-    "en": "INGLESEEEE"
+    "en": "CHAPEL OF THE BAPTISTERY"
   },
   "cappella_2_text": {
     "it": "Una vasca scavata in un unico blocco di marmo a otto lati considerata dalla critica come il lavoro di una maestranza campionese attiva a Ferrara intorno alla metà del Duecento.<br>",
-    "en": "INGLESEEEE"
+    "en": "A basin carved from a single block of marble with eight sides, considered by critics to be the work of a local worker in Ferrara around the mid-13th century.<br>"
   },
   "cappella_dsc_text": {
     "it": "La Cappella del Battistero nella Cattedrale di Ferrara è un’elaborata struttura in stile neogotico, situata nell’ultima cappella della navata sinistra. Fu ideata nel 1875 dall’architetto Luigi Crivellucci, su incarico del Capitolo. L’esecuzione materiale fu affidata allo scultore Gaetano Davia e al marmista Francesco Leoni. La sommità ogivale della costruzione corona la raffigurazione del Battesimo di Gesù nelle acque del Giordano, un’opera molto apprezzata del ferrarese Prospero Piatti, artista la cui attività si svolse principalmente a Roma. Al di sotto di un baldacchino ottagonale con archetti e pinnacoli, è stata collocata una singolare vasca battesimale. Questa vasca, scavata in un unico blocco di marmo a otto lati, è stata considerata dalla critica come il lavoro di una maestranza campionese attiva a Ferrara intorno alla metà del Duecento, ma recentemente è stata attribuita a Nicholaus. Il bassorilievo all’interno della vasca, realizzato su modelli bizantini del V-VI secolo, presenta un modellato rigido e stilizzato con ornamentazioni di tipo vegetale e animale, tra cui spicca l’Agnello vessillifero. Il coperchio in legno della vasca fu realizzato nel 1735 da Giovanni Benetti, quando la vasca cominciò ad essere utilizzata come fonte battesimale. Sulle pareti ai lati della struttura marmorea, sono affrescati due episodi ispirati al sacramento del battesimo, relativi alla vita di due santi missionari: a destra, San Pietro Claver battezza gli schiavi negri evangelizzati; a sinistra, San Francesco Saverio, noto come “apostolo delle Indie”, battezza un neofita. La singolare vasca battesimale, su cui si vede l’Agnello vessillifero, è stata recentemente attribuita a Nicholaus. La Cappella del Battistero rappresenta un connubio tra la tradizione bizantina e il gusto artistico dell’epoca, e la sua realizzazione è un esempio significativo dell’architettura neogotica nell’Italia del XIX secolo.",
-    "en": "INGLESEEEE"
+    "en": "The Baptistery Chapel in Ferrara Cathedral is an elaborate neo-Gothic style structure, located in the last chapel of the left nave. It was designed in 1875 by the architect Luigi Crivellucci, commissioned by the Chapter. The physical execution was entrusted to the sculptor Gaetano Davia and the marble worker Francesco Leoni. The ogival top of the building crowns the depiction of the Baptism of Jesus in the waters of the Jordan, a much appreciated work by Prospero Piatti from Ferrara, an artist whose activity took place mainly in Rome. Below an octagonal canopy with arches and pinnacles, a singular baptismal font was placed. This basin, carved out of a single eight-sided block of marble, was considered by critics to be the work of a Campionese worker active in Ferrara around the mid-13th century, but has recently been attributed to Nicholaus. The bas-relief inside the basin, created on Byzantine models from the 5th-6th century, presents a rigid and stylized model with vegetal and animal ornaments, among which the Banner Lamb stands out. The wooden lid of the tub was made in 1735 by Giovanni Benetti, when the tub began to be used as a baptismal font. On the walls on the sides of the marble structure, two episodes inspired by the sacrament of baptism are frescoed, relating to the lives of two missionary saints: on the right, Saint Peter Claver baptizes the evangelized black slaves; on the left, Saint Francis Xavier, known as the 'Apostle of the Indies', baptizes a neophyte. The singular baptismal font, on which the Banner Lamb can be seen, has recently been attributed to Nicholaus. The Baptistery Chapel represents a union between the Byzantine tradition and the artistic taste of the time, and its creation is a significant example of neo-Gothic architecture in 19th century Italy."
   },
 
   "titolo_catino_text": {
     "it": "catino absidale",
-    "en": "INGLESEEEE"
+    "en": "apsidal basin"
   },
   "catino_text": {
     "it": "Catino Absidale",
-    "en": "INGLESEEEE"
+    "en": "Apsidal basin"
   },
   "catino_2_text": {
     "it": "Nel semicerchio absidale decorato a stucco con ovuli di fiori e frutti sorretti da angeli.<br>",
-    "en": "INGLESEEEE"
+    "en": "In the apse semicircle decorated in stucco with ovules of flowers and fruits supported by angels.<br>"
   },
   "catino_dsc_text": {
     "it": "Nel semicerchio absidale decorato a stucco con ovuli di fiori e frutti sorretti da angeli, si trovano le immagini di San Giorgio, San Maurelio e dei Quattro Evangelisti, opere rispettivamente di Agostino Rossi, Francesco Bagnoli, Giu- lio Don Giovanni e Paolo Monferrato, eseguite nel biennio 1583-84. La decorazione è interrotta da sei finestre create da Biagio Rossetti con vetrate moderne del 1955. Nel catino absidale si ammira l'imponente affresco di Sebastiano Filippi, detto il Bastianino, che ha per tema il Giudizio Universale, realizzato nel 1580. L'orchestrazione dell'opera, d'ispirazione michelangiolesca, presenta un groviglio di corpi attorno alla figura centrale del Cristo affiancato dalla Madonna. Tutte le figure si stagliano in un cielo plumbeo, pieno di tensione, che crea una scena drammatica. San Maurelio: Questo altare imponente, collocato nel braccio destro della crociera mediana, dedicato a San Maurelio, è speculare a quello collocato nella navata sinistra, attribuito a San Giorgio, entrambi Patroni della città. La grande pala incornicia il dipinto realizzato nel 1735 da Felice Torelli che ha per soggetto La decapitazione di San Maurelio, nelle nicchie laterali si vedono le statue in gesso di Pietro Turchi del 1744, di San Luca Evangelista e di San Raffaele Arcangelo. Ai lati dell'altare spiccano due quadri di grande pregio, a destra si ammira l'opera di Ippolito Scarsella, detto lo Scarsellino del 1610, San Lorenzo martire, San Francesco stimmatizzato e il suo committente, a sinistra la tavola di Giovan Francesco Surchi, detto Dielaì del 1581-86, Santa Caterina in Contemplazione della SS. Trinità. Le pareti laterali sono decorate da affreschi di Virginio Monti del 1888, realizzati a finti stendardi che rappresentano le quattro parrocchie della città, San Benedetto Abate, Santa Francesca Romana, San Gregorio Magno e Maria SS. Annunziata. La Decapitazione di san Maurelio è il tema della grandiosa pala dipinta da Felice Torelli, su commissione del cardinale Ruffo e qui collocata il 27 agosto 1735. Il pittore di origine veronese, diventato uno dei migliori allievi di Gian Gioseffo dal Sole, si esprime con un linguaggio di scenografica magniloquenza celebrativa nel narrare il martirio del santo che, tornato in patria a Edessa, dopo strazianti torture venne fatto decapitare dal fratello al quale aveva precedentemente ceduto il regno e al cui paganesimo egli si opponeva. Nelle nicchie in alto ai lati dell'ancona, si vedono le statue in stucco di San Luca Evangelista e di San Raffaele Arcangelo, eseguite dal ferrarese Pietro Book, presumibilmente intorno al 1744, in modo strettamente conforme all'insegnamento del suo maestro, il Ferreri; le statue sono state fatte a spese del Collegio dei Filosofi e dei Medici dell'Università. Acquasantiera: Andrea e Ferdinando Vaccà 1745. Statua San Giorgio: Iniziata nel 1451 da Nicolò Baroncelli e rifinita nel 1453 dopo la sua morte dal figlio Giovanni e dal cognato Domenico di Paris, è un dettaglio dell’altare del Crocifisso.",
-    "en": "INGLESEEEE"
+    "en": "In the apse semicircle decorated in stucco with ovules of flowers and fruits supported by angels, there are the images of San Giorgio, San Maurelio and the Four Evangelists, works respectively by Agostino Rossi, Francesco Bagnoli, Giulio Dongiovanni and Paolo Monferrato, executed in two-year period 1583-84. The decoration is interrupted by six windows created by Biagio Rossetti with modern stained glass from 1955. In the apse you can admire the imposing fresco by Sebastiano Filippi, known as Bastianino, which has as its theme the Last Judgment, created in 1580. The orchestration of The work, inspired by Michelangelo, presents a tangle of bodies around the central figure of Christ flanked by the Madonna. All the figures stand out against a leaden sky, full of tension, which creates a dramatic scene. Saint Maurelio: This imposing altar, located in the right arm of the median cross, dedicated to San Maurelio, is a mirror image of the one located on the left nave, attributed to San Giorgio, both Patrons of the city. The large altarpiece frames the painting created in 1735 by Felice Torelli which has as its subject The Beheading of San Maurelio, in the side niches you can see the plaster statues of Pietro Turchi from 1744, of San Luca the Evangelist and of San Raffaele Arcangelo. On the sides of the altar there are two paintings of great value, on the right you can admire the work of Ippolito Scarsella, known as Scarsellino from 1610, San Lorenzo martyr, San Francesco stigmatised and his client, on the left the panel by Giovan Francesco Surchi, called Dielaì of 1581-86, Saint Catherine in Contemplation of the SS. Trinity. The side walls are decorated with frescoes by Virginio Monti from 1888, made with fake banners representing the four parishes of the city, San Benedetto Abate, Santa Francesca Romana, San Gregorio Magno and Maria SS. Annunziata. The Decapitation of Saint Maurelius is the theme of the grandiose altarpiece painted by Felice Torelli, commissioned by Cardinal Ruffo and placed here on 27 August 1735. The painter of Veronese origins, who became one of the best students of Gian Gioseffo dal Sole, expresses himself with a language of spectacular celebratory magniloquence in narrating the martyrdom of the saint who, having returned home to Edessa, after harrowing torture was beheaded by his brother to whom he had previously ceded the kingdom and whose paganism he opposed. In the niches at the top of the altarpiece, you can see the stucco statues of Saint Luke the Evangelist and Saint Raphael the Archangel, created by Pietro Book from Ferrara, presumably around 1744, strictly in accordance with the teachings of his master, the Ferreri; the statues were made at the expense of the College of Philosophers and Doctors of the University. Stoup: Andrea and Ferdinando Vaccà 1745. St. Giorgio’s Statue: Begun in 1451 by Nicolò Baroncelli and finished in 1453 after his death by his son Giovanni and his brother-in-law Domenico di Paris."
   },
 
 
   "titolo_storia_text": {
     "it": "STORIA",
-    "en": "INGLESEEEE"
+    "en": "HISTORY"
   },
 
   "introduzione2_text": {
     "it": "Uno Sguardo Storico",
-    "en": "ioquando inglese"
+    "en": "A Glimpse Into History"
   },
   "murotesto4_text": {
     "it": "La <b>prima cattedrale di Ferrara</b> è stata la <b>chiesa di San Giorgio</b>, situata al limite sud-orientale della città, nell’antico borgo omonimo che si raggiunge passando il ponte sul Po di Volano; qui intorno alla metà del VII secolo era stata trasferita la sede del vescovo, eretta in epoca paleocristiana da papa Silvestro I nella vicina Voghenza.<br>Il <b>30 Settembre 1132</b>, a Pisa, <b>papa Innocenzo II</b> consegna al vescovo, ai consoli e al popolo di Ferrara il Breve di concessione per la costruzione del nuovo duomo, che sarebbe stato costruito su un terreno dato in donazione dalla comunità ferrarese alla Santa Sede e sotto la protezione apostolica; la costruzione del <b>nuovo duomo</b> sarebbe stata <b>simbolo di autonomia e grandioso elemento urbanistico</b> intorno a cui far ruotare i due blocchi storici: quello bizantino-longo-bardo e quello dei nuovi quartieri rappresentanti l'ampliamento edilizio della città nel XI secolo.<br>La chiesa, a causa di varie vicende, fu <b>modificato sotto l'aspetto esterno e completamente sotto l'aspetto interno</b>.<br>Le modifiche più significative che hanno mutato l'assetto interno della chiesa sono state quelle fatte in epoca quattrocentesca dovute all'intervento rossettiano nella zona absidale. L'esterno della chiesa che si vede al giorno d'oggi è frutto di <b>molteplici mutamenti e inserimenti</b> che stratificandosi, hanno reso notevolmente complessa la lettura dello stato architettonico originario.",
-    "en": "ioquando inglese"
+    "en": "The <b>first cathedral of Ferrara</b> was <b>the church of San Giorgio</b>, located on the south-eastern edge of the city, in the ancient village of the same name which can be reached by crossing the bridge over the Po di Volano; the seat of the bishop, built in the early Christian era by Pope Sylvester I in nearby Voghenza, was moved here around the middle of the 7th century. The cathedral was built starting from the 12th century, with the contribution of Guglielmo I Adelardi who in 1135 contributed to its construction following a concession from the antipope Anacletus II</b> obtained in 1132, when the city was expanding on the left bank of the Po and consequently the the center of the city moved northwards.<br> On <b>30 September 1132</b>, in Pisa, <b>Pope Innocent II</b> delivered to the bishop, the consuls and the people of Ferrara the concession brief for the construction of the new cathedral, which would have been built on land donated by the Ferrara community to the Holy See and under apostolic protection; the construction of the <b>new cathedral</b> would have been a <b>symbol of autonomy and a grandiose urban planning element</b> around which the two historical blocks would have revolved: the Byzantine-Longobardic one and that of the new neighborhoods representing the building expansion of the city in the 11th century. In the years between 1133 and 1136 the construction site for the basilica had already been opened and the first phase of the works had already begun. The high altar was consecrated on 8 May 1177, in the period in which Pope Alexander III was staying in Ferrara (he was going to Venice to ally himself with the Lombard league against Frederick Barbarossa). The church, due to various events, was <b>modified externally and completely internally</b>. The most significant modifications that changed the internal structure of the church were those made in the fifteenth century due to Rossetti's intervention in the apse area, the seventeenth century ones carried out by Luca Danesi in the transept and the total renovation carried out by Francesco Mazzarelli in the years 1712-1728 . The exterior of the church that can be seen today is the result of <b>multiple changes and additions</b> which, by stratification, have made the reading of the original architectural state considerably complex."
   },
 
 
@@ -329,78 +329,78 @@
 
   "titolo_struttura_text": {
     "it": "STRUTTURA",
-    "en": "ioquando inglese"
+    "en": "STRUCTURE"
   },
   "titstrutt_text": {
     "it": "Un capolavoro di",
-    "en": "ioquando inglese"
+    "en": "A maesterwork of"
   },
   "titolo1_strut_text": {
     "it": "Un'Architettura in Evoluzione",
-    "en": "ioquando inglese"
+    "en": "The Architectural Evolution"
   },
   "sottotit1_strut_text": {
     "it": "L'evoluzione architettonica della Cattedrale di Ferrara è un <b>racconto di trasformazioni</b> che si sono susseguite <b>nel corso dei secoli</b>, riflettendo cambiamenti liturgici, estetici e strutturali. Fin dalla sua costruzione, l'edificio ha subito una serie di modifiche significative, tra cui la distruzione dell'antica abside nel XVI secolo e una <b>completa ristrutturazione interna all'inizio del XVIII secolo</b>. Questo testo esplora in dettaglio le principali trasformazioni della cattedrale, iniziando dalle botteghe mercantili installate nel 1287, passando per le modifiche del portico nel 1844, fino ai restauri del XX secolo. Si descrivono eventi sismici, progetti ambiziosi, e polemiche che hanno caratterizzato la storia della cattedrale, rendendola un <b>vero e proprio organismo vivente in continua evoluzione.</b>",
-    "en": "ioquando inglese"
+    "en": "The architectural evolution of the Cathedral of Ferrara is a <b>tale of transformations</b> that have occurred <b>over the centuries</b>, reflecting liturgical, aesthetic, and structural changes. Since its construction, the building has undergone a series of significant modifications, including the destruction of the ancient apse in the sixteenth century and a <b>complete internal restructuring at the beginning of the eighteenth century</b>. This text explores in detail the main transformations of the cathedral, starting from the merchant shops installed in 1287, through the modifications of the portico in 1844, to the twentieth-century restorations. It describes seismic events, ambitious projects, and controversies that have characterized the history of the cathedral, making it a <b>true living organism in continuous evolution.</b>"
   },
   "sottitstrutt_text": {
     "it": "ARCHITETTURA",
-    "en": "ioquando inglese"
+    "en": "ARCHITECTURY"
   },
   "scopri_strut_text": {
     "it": "Scopri di più",
-    "en": "ioquando inglese"
+    "en": "Learn more"
   },
   "murotesto5_strut_text": {
     "it": "La facciata è <b>divisa in tre scomparti</b> terminanti a cuspidi uguali. Si sovrappose la galleria gotica del secondo, le dodici ricche bifore del terzo ordine, dalla profonda strombatura, e si innalzarono le tre cuspidi.",
-    "en": "ioquando inglese"
+    "en": "The facade is <b>divided into three compartments</b> ending in equal cusps. The Gothic gallery of the second was superimposed, the twelve rich mullioned windows of the third order, with deep splays, and the three spires were raised."
   },
   "scopri_strut_text2": {
     "it": "Scopri di più",
-    "en": "ioquando inglese"
+    "en": "Learn more"
   },
   "evoluz_strut_text": {
     "it": "La Facciata",
-    "en": "ioquando inglese"
+    "en": "The Facade"
   },
   "leporte_strut_text": {
     "it": "Le Porte",
-    "en": "ioquando inglese"
+    "en": "The Doors"
   },
   "murotesto6_strut_text": {
     "it": "Le due porte minori sono al pari della maggiore in puro <b>stile romanico</b> ed hanno una sobria decorazione. A fianco della porta di sinistra vi è <b>un'iscrizione fatta nel 1843 che ricorda il passaggio di Ferrara dalla dominazione estense a quella pontificia</b>. La grande porta si apre sotto il monumentale protiro che sporge dalla campata mediana. Il grande arco che posa su <b>quattro colonne, sorrette da leoni e da cariatidi</b>, motivo di origine orientale che ebbe nel medioevo grande diffusione, è del sec. XII. Il portale ha figurazioni simboliche e sacre, figure di profeti e di santi, e scene tratte dal Vangelo. Nella lunetta si ammira uno dei più perfetti capolavori della scultura del sec. XII, il <b>S. Giorgio a cavallo in atto di uccidere il Drago</b>. Sopra l'arcone si innalza una loggetta, a bifore gotiche, della Madonna col Figlio.",
-    "en": "ioquando inglese"
+    "en": "The two minor doors, like the main one, are in pure <b>Romanesque style</b> and have a simple decoration. Next to the left door, there is <b>an inscription made in 1843 that commemorates the transition of Ferrara from Este domination to papal rule</b>. The large door opens under the monumental porch that protrudes from the central bay. The large arch, supported by <b>four columns, held by lions and caryatids</b>, a motif of Oriental origin that became widespread in the Middle Ages,dates back to the 12th century. The portal features symbolic and sacred representations, figures of prophets and saints, and scenes from the Gospel. In the lunette, one can admire one of the most perfect masterpieces of 12th-century sculpture, <b>Saint George on horseback in the act of killing the Dragon</b>. Above the large arch, a small loggia with Gothic biforas houses the Madonna and Child."
   },
   "lefiancate_strut_text": {
     "it": "Le Fiancate",
-    "en": "ioquando inglese"
+    "en": "The Broadsides"
   },
   "murotesto7_strut_text": {
     "it": "Sono presenti <b>due fiancate</b> quella settentrionale composta da mattoni rossi e la fiancata meridionale, che fu pensata più decorata, vi è una galleria di <b>sessanta archi</b> inclusi a tre a tre entro archi maggiori. Termina la fiancata una seconda galleria di tipo veneto di sessantadue archi sorretti da colonnine di foggia variatissime. All'imbocco presso la facciata della Cattedrale vi è un <b>saggio di rifacimento della loggia</b>.",
-    "en": "ioquando inglese"
+    "en": "There are <b>two sides</b>: the northern side, composed of red bricks, and the southern side, which was designed to be more decorated. It features a gallery of <b>sixty arches</b> grouped in sets of three within larger arches. This side concludes with a second Venetian-style gallery of sixty-two arches supported by columns of varied designs. At the entrance near the cathedral's facade, there is an <b>example of the reconstruction of the loggia</b>."
   },
   "linterno_strut_text": {
     "it": "L'Interno",
-    "en": "ioquando inglese"
+    "en": "The Interior"
   },
   "murotesto8_strut_text": {
     "it": "Furono messi alla luce le basi delle <b>semicolonne iniziali delle antiche navate</b>, e un frammento di affresco. Il pannello mediano, è alquanto inutilizzabile, sono presenti anche due <b>medaglioni laterali</b>. Ai lati della porta maggiore sono state <b>collocate le antiche colonne con leoni e i telamoni</b> che sostenevano l'arcone del portale esterno.",
-    "en": "ioquando inglese"
+    "en": "The bases of the initial <b>semicolumns of the ancient naves</b>, and a fragment of the fresco were brought to light. The median panel, is rather unusable, there are also two <b>lateral medallions</b>. On the sides of the main door were <b>placed the ancient columns with lions and the telamons</b> that supported the arch of the outer portal."
   },
   "labasilica_strut_text": {
     "it": "La Basilica",
-    "en": "ioquando inglese"
+    "en": "The Basilica"
   },
   "murotesto9_strut_text": {
     "it": "L'abside fu trasformata alla fine del '400 da Biagio Rossetti, per trasportarvi il coro che era davanti all'altare maggiore. La <b>decorazione pittorica</b> delle navate <b>cominciò nel 1880</b> per iniziativa e generosità del Card. Luigi Giordani ed è opera di Alessandro Mantovani ferrarese. I <b>due belli affreschi coi santi</b>, Pietro e Paolo ai lati della porta maggiore sono di Benvenuto Tisi da Garofalo (1481-1559). All’interno si può ammirare il <b>grande altare di fini marmi</b>, eretto nel 1734, dell'architetto Agapito Poggi, con sculture di Andrea Ferreri (1744) che riproduce l'altare di S. Luigi in S. Ignazio di Roma. Segue il <b>grande altare della crociera mediana</b> con un serafino e festoni di Andrea Ferreri e la grande bella pala col Martirio di S. Maurelio. Di fronte all'imbocco della navata ora percorsa vi è il <b>monumentale altare del Crocefisso</b> costruito da Carlo Pasetti nel 1678. Proseguendo a sinistra si entra nel vasto presbitero in cui vi è da notare la <b>tomba di Urbano III</b> morto in Ferrara nel 1187 e la lapide terragna sulla quale vi è grafita l'immagine del Vescovo Franceschi (1458).",
-    "en": "ioquando inglese"
+    "en": "The apse was transformed at the end of '400 by Biagio Rossetti, to carry the choir that was in front of the high altar. The <b>painting decoration</b> of the naves <b>began in 1880</b> for initiative and generosity of Card. Luigi Giordani and is the work of Alessandro Mantovani of Ferrara. The <b>two beautiful frescoes with saints</b>, Pietro and Paolo on the sides of the main door are by Benvenuto Tisi da Garofalo (1481-1559). Inside you can admire the <b>large altar of fine marble</b>, built in 1734, architect Agapito Poggi, with sculptures by Andrea Ferreri (1744) which reproduces the altar of S. Luigi in S. Ignazio of Rome. It follows the <b>great altar of the median cruise</b> with a seraph and festoons of Andrea Ferreri and the large beautiful altarpiece with the Martyrdom of S. Maurelio. In front of the entrance of the nave now traveled there is the <b>monumental altar of the Crucifix</b> built by Carlo Pasetti in 1678. Continuing left you enter the vast presbyter in which there is to note the <b>tomb of Urban III</b> died in Ferrara in 1187 and the earthen plaque on which there is engraved the image of Bishop Franceschi (1458)."
   },
   "ilcoro_strut_text": {
     "it": "Il Coro",
-    "en": "ioquando inglese"
+    "en": "The Choir"
   },
   "murotesto10_strut_text": {
     "it": "La <b>triplice fila degli eleganti stalli in noce</b>, con tarsie che in parte riproducono edifici di Ferrara e imprese estensi, è opera di Bernardo e Daniele Canozio e aiuti (1501-1525). La mirabile <b>Cattedra Vescovile</b> intarsiata e dalle colonne finemente scolpite è il capolavoro di Luchino di Francia e Lodovico da Brescia. Dal coro, ripassando pel presbitero si accede alla <b>Cappella della Addolorata</b> adorna degli altri sei busti di Apostoli del Lombardi, e di un altare di fini marmi con colonne tortili, opera di Pietro Puttini (1751), che ha nella nicchia una bella Madonna piangente del Graziani. L'altare che segue ha un Crocefisso del Trecento scolpito in legno ed attribuito ad Antonio da Ferrara. La grande Cappella dedicata a S. Giorgio ha la <b>pala dipinta con fare grandioso</b> dal bolognese Ercole Graziani (1651-1726). La Cappella seguente ha una bellissima<b> tavola di Benvenuto Tisi da Garofalo</b>, con la Madonna e i santi Maurelio, Silvestro, Gerolamo e Giovanni, dipinta nel 1524.",
-    "en": "ioquando inglese"
+    "en": "The <b>triple row of elegant walnut stalls</b>, with inlays that partly reproduce buildings of Ferrara and Estensi enterprises, is the work of Bernardo and Daniele Canozio and aid (1501-1525). The admirable <b>Episcopal Chair</b> inlaid and finely carved columns is the masterpiece of Luchino of France and Lodovico from Brescia. From the choir, going back to the presbyter, you can reach the <b>Chapel of Our Lady of Sorrows</b> adorned with the other six busts of Apostoli del Lombardi, and an altar of fine marble with tortile columns, by Pietro Puttini (1751), which has in the niche a beautiful weeping Madonna by Graziani. The altar that follows has a Crucifix of the fourteenth century carved in wood and attributed to Antonio da Ferrara. The great Chapel dedicated to St. George has the <b>altarpiece painted with a grandiose</b> by the Bolognese Ercole Graziani (1651-1726). The following Chapel has a beautiful<b> panel by Benvenuto Tisi da Garofalo</b>, with the Madonna and Saints Maurelio, Sylvester, Jerome and John, painted in 1524."
   }
 }
