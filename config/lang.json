@@ -194,18 +194,51 @@
     "it": "EHTGEUIGHOUREHGORHGFOUHE",
     "en": "ioquando inglese"
   },
+  "viaggio_text": {
+    "it": "Un viaggio tra",
+    "en": "ioquando inglese"
+  },
+  "tesoricattedrale_text": {
+    "it": "I TESORI DELLA CATTEDRALE",
+    "en": "ioquando inglese"
+  },
   "santantpad_text": {
-    "it": "ALTARE DI SANT'ANTONIO DA PADOVA",
+    "it": "Altare di Sant'Antonio da Padova",
     "en": "ioquando inglese"
   },
   "anconamarmorea_text": {
-    "it": "La grande ancona marmorea decorata sulla cimasa con Serafini e Simboli della Trinità",
+    "it": "L'ancona marmorea del 1725, con decorazioni di Angelo de' Putti, ospita un dipinto del 1565 di Sebastiano Filippi raffigurante la Vergine, Santa Barbara e Santa Caterina. Le nicchie laterali hanno statue di Sant'Antonio da Padova e San Michele Arcangelo di Andrea Ferreri. L'ancona e la pala d'altare sono state spostate nel XIX secolo dalla chiesa di Santa Caterina Martire e il dipinto di Filippi mostra influenze di Raffaello e spiritualità monacale. Le statue di San Crispino e San Crispiniano, sotto l'arcata, sono di Luigi Turchi e furono donate dall'Arte dei Calzolari.",
     "en": "ioquando inglese"
   },
-  "descrition_text": {
-    "it": "La grande ancona marmorea decorata sulla cimasa con Serafini e Simboli della Trinità, opere di Angelo de' Putti del 1725, contiene il dipinto eseguito nel 1565 da Sebastiano Filippi, detto il Bastianino, la Vergine in gloria, Santa Barbara e Santa Caterina. Le nicchie laterali ospitano le statue settecentesche di Sant'Antonio da Padova e di San Michele Arcangelo di Andrea Ferreri. L'ancona e la pala d'altare che essa contiene sono state qui trasportate all'inizio dell'Ottocento dalla chiesa soppressa di Santa Caterina Martire; l'altare precedente era composto da quattro colonne provenienti dal sepolcro del papa Urbano III, oggi a parete a sinistra del presbiterio, e dai frammenti dell'antico pulpito, distrutto nel 1717, i cui resti a rilievo si conservano nel Museo della Cattedrale. Il dipinto che raffigura la Vergine in gloria, santa Barbara e santa Caterina è opera di Sebastiano Filippi, detto il Bastianino, autore anche della grandiosa decorazione ad affresco del catino absidale, ed è stilisticamente datato intorno al 1565. In questi anni l’artista ferrarese mostra una stretta aderenza al linguaggio raffaellesco, unito ad un plasticismo tosco- romano intenerito da un'ardente spiritualità monacale, evidenziata dal devoto misticismo delle due sante vergini e martiri, ben riconoscibili dai loro attributi iconografici la torre e la ruota uncinata. Nelle nicchie delle pareti laterali statue in stucco di Sant'Antonio da Pascua e di San Michele Arcangelo sono di Andrea Ferreri, eseguite tra il 1720 e il 1728. Sotto l'arcata mediana davanti alla cappella, le statue sempre in stucco di San Crispino e di San Crispiniano, i due fratelli di nobile famiglia romana con gli arnesi del loro mestiere di cal- zolai, sono state realizzate verso il 1745 da Luigi Turchi, detto il Turchetto, le sculture furono commissionate e donate alla cattedrale dall’Arte dei Calzolari di cui i due santi sono i protettori.",
+  "titolo_opere_catino_text": {
+    "it": "Catino Absidale",
     "en": "ioquando inglese"
   },
+  "murotesto_catino_text": {
+    "it": "L'abside decorata con stucchi, affreschi e statue, realizzate da vari artisti tra il XVI e il XVIII secolo. L'affresco del Giudizio Universale di Sebastiano Filippi, ispirato a Michelangelo, domina l'abside con una scena drammatica. L'altare di San Maurelio, patrono della città, presenta una pala d'altare del 1735 di Felice Torelli raffigurante la sua decapitazione, e statue di Pietro Turchi. Le pareti mostrano affreschi di Virginio Monti che rappresentano le parrocchie della città. La statua di San Giorgio, iniziata da Nicolò Baroncelli e completata dal figlio e dal cognato, fa parte dell'altare del Crocifisso.",
+    "en": "ioquando inglese"
+  },
+  "titolo_opere_beataver_text": {
+    "it": "Statua della Beata Vergine Della Colonna",
+    "en": "ioquando inglese"
+  },
+  "murotesto_beataver_text": {
+    "it": "La statua della Beata Vergine della Colonna a Ferrara, venerata dal XIV secolo, è legata a un ritrovamento miracoloso durante un'alluvione nel 1232. È un simbolo di devozione mariana e attira fedeli e pellegrini. La cappella riedificata ospita statue di Sant'Anna, San Gioacchino, San Fedele di Sigmaringa e Sant'Andrea Avellino. L'altare contiene un'immagine della Madonna col Bambino del XIII secolo, che ha trovato la sua posizione definitiva dopo la ristrutturazione del Settecento. La statua è sacra per i fedeli cattolici, simbolo di purezza, grazia e maternità divina, e un punto focale di preghiera e devozione.",
+    "en": "ioquando inglese"
+  },
+  "titolo_opere_altare_text": {
+    "it": "Altare di San Giorgio",
+    "en": "ioquando inglese"
+  },
+  "murotesto_altare_text": {
+    "it": "San Giorgio, patrono di Ferrara, è celebrato per il suo coraggio e devozione, famoso per la leggenda in cui sconfigge un drago. Il suo altare nella Cattedrale di Ferrara, speculare a quello di San Maurelio, è decorato con marmi rossi e gialli e sculture di Andrea Ferreri. La pala d'altare, che raffigura la decapitazione di San Giorgio, è opera di Ercole Graziani e fu commissionata nel 1735. Le nicchie laterali contengono statue di Sant'Ivo di Bretagna e San Dionigi Areopagita, realizzate da Lorenzo Sarti nel 1745. Un dipinto laterale raffigura lo Sposalizio della Vergine, di Nicolò Roselli, e un altro la Madonna con le mani giunte, attribuita al Garofalo e restaurata di recente. Le pareti mostrano affreschi di Virginio Monti con i santi titolari di quattro parrocchie della città.",
+    "en": "ioquando inglese"
+  },
+  "tesori_cattedrale_text": {
+    "it": "I Tesori Della Cattedrale",
+    "en": "ioquando inglese"
+  },
+
 
   "titolo_altsg_text": {
     "it": "altare san giorgio",
