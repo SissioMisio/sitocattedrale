@@ -67,16 +67,29 @@ if (!document.cookie) { //se non esiste un cookie
     }
 }
 
-function goTo(where) {
+function goTo(where, hashtag) {
+    let loc;
     switch(where) {
         case "home":
-            window.location.replace(rootDir + "/");
+            if(hashtag != null) {
+                loc = rootDir + "/#" + hashtag;
+            } else {
+                loc = rootDir + "/";
+            }
             break;
         case "storia":
-            window.location.replace(rootDir + "/storia");
+            if(hashtag != null) {
+                loc = rootDir + "/storia#" + hashtag;
+            } else {
+                loc = rootDir + "/storia";
+            }
             break;
         case "struttura":
-            window.location.replace(rootDir + "/struttura");
+            if(hashtag != null) {
+                loc = rootDir + "/struttura#" + hashtag;
+            } else {
+                loc = rootDir + "/struttura";
+            }
             break;
 
         //TODO: AGGIUSTA QUESTI!
@@ -93,7 +106,11 @@ function goTo(where) {
             alert("VARIE_STRUTTURE_QUI");
             break;
         case "opere":
-            window.location.replace(rootDir + "/opere");
+            if(hashtag != null) {
+                loc = rootDir + "/opere#" + hashtag;
+            } else {
+                loc = rootDir + "/opere";
+            }
             break;
         case "VARIE_OPERE_QUI":
             alert("VARIE_OPERE_QUI");
@@ -108,6 +125,7 @@ function goTo(where) {
             alert("VARIE_OPERE_QUI");
             break;
     }
+    window.location.replace(loc);
 }
 
 // ***** //

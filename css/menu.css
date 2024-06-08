@@ -121,6 +121,7 @@ grassettoMenu {
 }
 
 .tdropdown-content {
+    cursor: pointer;
     display: block;
     position: absolute;
     width: auto;

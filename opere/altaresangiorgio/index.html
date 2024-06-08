@@ -24,7 +24,7 @@
     <!--js carte-->
     <script src="../../js/carte.js" defer></script>
     <!--js cambio lingua-->
-    <script src="../../js/utils.js" defer></script>
+    <script src="../../js/utils.js"></script>
 </head>
 
 <body>
@@ -52,10 +52,10 @@
                     <div class="tdropbtn"><!-- inserire link esterno-->
                         <a class="tlink" onClick="goTo('struttura')"><traduzione id="struttura_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                         <div class="tdropdown-content">
-                            <a href="#"><traduzione id="titolo1_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo2_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo3_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo4_text"></traduzione></a>
+                            <a onClick="goTo('struttura', 'Facciata')"><traduzione id="titolo1_text"></traduzione></a>
+                            <a onClick="goTo('struttura', 'Coro')"><traduzione id="titolo2_text"></traduzione></a>
+                            <a onClick="goTo('struttura', 'Porte')"><traduzione id="titolo3_text"></traduzione></a>
+                            <a onClick="goTo('struttura', 'Interno')"><traduzione id="titolo4_text"></traduzione></a>
                         </div>
                     </div>
                 </li>

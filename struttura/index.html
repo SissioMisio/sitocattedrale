@@ -22,8 +22,8 @@
     <script src="https://kit.fontawesome.com/ec6d9d37ac.js"></script>
     <!--Includo lo script di JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--js cambio lingua-->
-    <script src="../js/utils.js" defer></script>
+    <!--js utilità-->
+    <script src="../js/utils.js"></script>
 </head>
 
 <body>
@@ -52,10 +52,10 @@
                         <div class="tdropbtn">
                             <a class="tlink" onClick="goTo('struttura')" style="color:rgb(180, 137, 50);"><traduzione id="struttura_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                             <div class="tdropdown-content">
-                                <a href="#"><traduzione id="titolo1_text"></traduzione></a>
-                                <a href="#"><traduzione id="titolo2_text"></traduzione></a>
-                                <a href="#"><traduzione id="titolo3_text"></traduzione></a>
-                                <a href="#"><traduzione id="titolo4_text"></traduzione></a>
+                                <a href="#Facciata"><traduzione id="titolo1_text"></traduzione></a>
+                                <a href="#Porte"><traduzione id="titolo2_text"></traduzione></a>
+                                <a href="#Interno"><traduzione id="titolo3_text"></traduzione></a>
+                                <a href="#Coro"><traduzione id="titolo4_text"></traduzione></a>
                             </div>
                         </div>
                     </div>
@@ -64,10 +64,10 @@
                     <div class="tdropbtn">
                         <a class="tlink" onClick="goTo('opere')"><traduzione id="opere_text"></traduzione> <simboliMenu>T</simboliMenu></a>
                         <div class="tdropdown-content">
-                            <a href="#"><traduzione id="titolo5_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo6_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo7_text"></traduzione></a>
-                            <a href="#"><traduzione id="titolo8_text"></traduzione></a>
+                            <a onClick="goTo('opere', 'TEMP')"><traduzione id="titolo5_text"></traduzione></a>
+                            <a onClick="goTo('opere', 'TEMP')"><traduzione id="titolo6_text"></traduzione></a>
+                            <a onClick="goTo('opere', 'TEMP')"><traduzione id="titolo7_text"></traduzione></a>
+                            <a onClick="goTo('opere', 'TEMP')"><traduzione id="titolo8_text"></traduzione></a>
                         </div>
                     </div>
                 </li>
@@ -100,7 +100,7 @@
             <div class="Qtitoloetesto">
                 <div class="Qtitolo"><traduzione id="titolo1_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="sottotit1_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="arch_evol">
                     <div class="tbutton">
                         <button class="cta">
                             <span><traduzione id="scopri_strut_text"></traduzione></span>
@@ -122,10 +122,10 @@
                 <div class="Qmappa">
                 </div>
             </div>
-            <div class="Qtitoloetesto">
+            <div class="Qtitoloetesto" id="Facciata">
                 <div class="Qtitolo"><traduzione id="evoluz_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="murotesto5_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="facciata">
                     <div class="tbutton">
                         <button class="cta">
                             <span><traduzione id="scopri_strut_text2"></traduzione></span>
@@ -140,10 +140,10 @@
         </div>
 
         <div class="Qseccontenitore">
-            <div class="Qtitoloetesto">
+            <div class="Qtitoloetesto" id="Porte">
                 <div class="Qtitolo"><traduzione id="leporte_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="murotesto6_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="porte">
                     <div class="tbutton">
                         <button class="cta">
                             <span>
@@ -171,7 +171,7 @@
             <div class="Qtitoloetesto">
                 <div class="Qtitolo"><traduzione id="lefiancate_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="murotesto7_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="fiancate">
                     <div class="tbutton">
                         <button class="cta">
                             <span>
@@ -188,10 +188,10 @@
         </div>
 
         <div class="Qseccontenitore">
-            <div class="Qtitoloetesto">
+            <div class="Qtitoloetesto" id="Interno">
                 <div class="Qtitolo"><traduzione id="linterno_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="murotesto8_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="interno">
                     <div class="tbutton">
                         <button class="cta">
                             <span>
@@ -219,7 +219,7 @@
             <div class="Qtitoloetesto">
                 <div class="Qtitolo"><traduzione id="labasilica_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="murotesto9_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="basilica">
                     <div class="tbutton">
                         <button class="cta">
                             <span>
@@ -237,10 +237,10 @@
 
 
         <div class="Qseccontenitore">
-            <div class="Qtitoloetesto">
+            <div class="Qtitoloetesto" id="Coro">
                 <div class="Qtitolo"><traduzione id="ilcoro_strut_text"></traduzione></div>
                 <div class="Qmuroditesto"><traduzione id="murotesto10_strut_text"></traduzione></div>
-                <a href="../storia/">
+                <a href="coro">
                     <div class="tbutton">
                         <button class="cta">
                             <span>
